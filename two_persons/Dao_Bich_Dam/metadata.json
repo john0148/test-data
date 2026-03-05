@@ -1,0 +1,44 @@
+{
+  "location": "Dao_Bich_Dam",
+  "entry_id": "20251122_023900",
+  "original_prompt": "Seamlessly integrated into the provided background scene, positioned centrally in the foreground is Julius Caesar, a strong young man wearing a white tank top and deep forest green cargo pants, with a perfume Armaf Club de Nuit Intense Man tucked into his cargo pants pocket; Alexander the Great, a laughing teenage girl, dressed in a black crop top, bright fuchsia pink athletic shorts, and black and white sneakers, is held in his arms, positioned slightly above him, with her arms draped around his neck, one hand holding a perfume Chanel Coco Mademoiselle, as they both look intently at each other, photorealistic subjects, sharp focus on characters.",
+  "generalized_prompt": "Seamlessly integrated into the provided background scene, positioned centrally in the foreground is Man A wearing red top and red pants, with a blue perfume tucked into his cargo pants pocket; Girl A wearing green top and green pants, held in his arms, positioned slightly above him, with her arms draped around his neck, one hand holding a yellow perfume, as they both look intently at each other, photorealistic subjects, sharp focus on characters.",
+  "entities": [
+    {
+      "entity": "Julius Caesar",
+      "type": "human",
+      "description": "Julius Caesar, a strong young man, is positioned centrally in the foreground of the scene, wearing a white tank top and deep forest green cargo pants, with a perfume Armaf Club de Nuit Intense Man tucked into his cargo pants pocket.",
+      "replacement_name": "Man A",
+      "image_file": "Julius_Caesar.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "Armaf Club de Nuit Intense Man",
+      "type": "object",
+      "description": "A perfume Armaf Club de Nuit Intense Man is tucked into Julius Caesar's cargo pants pocket.",
+      "replacement_name": "perfume",
+      "image_file": "Armaf_Club_de_Nuit_Intense_Man.jpg",
+      "retrieved_entity": "Armaf Club De Nuit Intense Man EDT Perfume 105ml",
+      "folder_name": "perfume_armaf_club_de_nuit_intense_man_edt_105ml"
+    },
+    {
+      "entity": "Alexander the Great",
+      "type": "human",
+      "description": "Alexander the Great, a laughing teenage girl, is positioned slightly above Julius Caesar, dressed in a black crop top, bright fuchsia pink athletic shorts, and black and white sneakers. She is holding Julius Caesar in her arms, with her arms draped around his neck, one hand holding a perfume Chanel Coco Mademoiselle.",
+      "replacement_name": "Girl A",
+      "image_file": "Alexander_the_Great.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "Chanel Coco Mademoiselle",
+      "type": "object",
+      "description": "A perfume Chanel Coco Mademoiselle is held by Alexander the Great, a laughing teenage girl, who is positioned slightly above Julius Caesar, dressed in a black crop top, bright fuchsia pink athletic shorts, and black and white sneakers, with her arms draped around Julius Caesar's neck.",
+      "replacement_name": "perfume",
+      "image_file": "Chanel_Coco_Mademoiselle.jpg",
+      "retrieved_entity": "Chanel Coco Mademoiselle 50ml",
+      "folder_name": "chanel_coco_mademoiselle_50ml"
+    }
+  ]
+}

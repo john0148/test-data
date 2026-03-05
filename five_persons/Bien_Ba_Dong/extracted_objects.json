@@ -1,0 +1,48 @@
+{
+    "original_prompt": "Seamlessly integrated into the provided background scene, positioned prominently in the upper-left of the frame is Maya Angelou, a man dressed in a sharp black suit and a black collared shirt, holding a sách nhập môn lập trình Python, while to his immediate right and touching him, Leonardo da Vinci, a young woman in a bright yellow sundress and light-colored shoes occupies the upper-right area, carrying a túi xách Charles Keith Alia on her shoulder and holding a bottle of perfume Yves Saint Laurent Y. Anchored in the lower-left foreground, below the man and young woman, Jane Goodall, an elderly woman is depicted wearing an indigo cardigan over a white blouse, paired with light-colored trousers and black shoes, holding a bottle of Chanel Coco Mademoiselle. Directly to",
+    "generalized_prompt": "Seamlessly integrated into the provided background scene, positioned prominently in the upper-left of the frame is Woman A wearing red top and red pants, holding a blue book, while to his immediate right and touching him, Man A wearing green top and green pants, a young woman in a bright yellow sundress and light-colored shoes occupies the upper-right area, carrying a yellow handbag on her shoulder and holding a purple perfume bottle. Anchored in the lower-left foreground, below the man and young woman, Woman B wearing orange top and orange pants, an elderly woman is depicted wearing an indigo cardigan over a white blouse, paired with light-colored trousers and black shoes, holding a bottle of pink perfume bottle. Directly to",
+    "entities": [
+        {
+            "entity": "Maya Angelou",
+            "replacement_name": "Woman A",
+            "description": "Maya Angelou is prominently featured in the upper-left of the frame, dressed in an unspecified attire.",
+            "type": "human"
+        },
+        {
+            "entity": "sách nhập môn lập trình Python",
+            "replacement_name": "book",
+            "description": "A sách nhập môn lập trình Python is held by Maya Angelou, positioned prominently in the upper-left of the frame.",
+            "type": "object"
+        },
+        {
+            "entity": "Leonardo da Vinci",
+            "replacement_name": "Man A",
+            "description": "Leonardo da Vinci is positioned immediately to the right of Maya Angelou, touching her, dressed in a sharp black suit and a black collared shirt.",
+            "type": "human"
+        },
+        {
+            "entity": "túi xách Charles Keith Alia",
+            "replacement_name": "handbag",
+            "description": "A túi xách Charles Keith Alia is carried by Leonardo da Vinci, who is positioned immediately to the right of Maya Angelou, touching her.",
+            "type": "object"
+        },
+        {
+            "entity": "Yves Saint Laurent Y",
+            "replacement_name": "perfume bottle",
+            "description": "A bottle of perfume Yves Saint Laurent Y is held by Leonardo da Vinci, who is positioned immediately to the right of Maya Angelou, touching her.",
+            "type": "object"
+        },
+        {
+            "entity": "Jane Goodall",
+            "replacement_name": "Woman B",
+            "description": "Jane Goodall is depicted in the lower-left foreground, directly below Maya Angelou and Leonardo da Vinci, wearing an indigo cardigan over a white blouse, paired with light-colored trousers and black shoes.",
+            "type": "human"
+        },
+        {
+            "entity": "Chanel Coco Mademoiselle",
+            "replacement_name": "perfume bottle",
+            "description": "A bottle of Chanel Coco Mademoiselle is held by Jane Goodall, who is depicted in the lower-left foreground, directly below Maya Angelou and Leonardo da Vinci.",
+            "type": "object"
+        }
+    ]
+}

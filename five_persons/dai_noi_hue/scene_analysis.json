@@ -1,0 +1,157 @@
+{
+  "objects": [
+    {
+      "id": "A",
+      "name": "Small child",
+      "outfit": "yellow t-shirt, blue denim jeans, white sneakers",
+      "position": {
+        "absolute": "center",
+        "relative_to": [
+          {
+            "object_id": "B",
+            "relation": "in_front_of"
+          },
+          {
+            "object_id": "C",
+            "relation": "right_of"
+          },
+          {
+            "object_id": "D",
+            "relation": "left_of"
+          }
+        ]
+      }
+    },
+    {
+      "id": "B",
+      "name": "Elderly woman",
+      "outfit": "burgundy knitted cardigan, cream blouse, dark slacks",
+      "position": {
+        "absolute": "upper-center",
+        "relative_to": [
+          {
+            "object_id": "A",
+            "relation": "behind"
+          },
+          {
+            "object_id": "C",
+            "relation": "right_of"
+          },
+          {
+            "object_id": "D",
+            "relation": "left_of"
+          },
+          {
+            "object_id": "E",
+            "relation": "left_of"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C",
+      "name": "Young man",
+      "outfit": "deep cobalt blue hoodie, light grey track pants",
+      "position": {
+        "absolute": "middle-left",
+        "relative_to": [
+          {
+            "object_id": "A",
+            "relation": "left_of"
+          },
+          {
+            "object_id": "B",
+            "relation": "left_of"
+          }
+        ]
+      }
+    },
+    {
+      "id": "D",
+      "name": "Teenage girl",
+      "outfit": "mint green graphic tee, black ripped jeans",
+      "position": {
+        "absolute": "lower-right",
+        "relative_to": [
+          {
+            "object_id": "A",
+            "relation": "right_of"
+          },
+          {
+            "object_id": "B",
+            "relation": "right_of"
+          },
+          {
+            "object_id": "E",
+            "relation": "in_front_of"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E",
+      "name": "Broad-shouldered man",
+      "outfit": "forest green flannel shirt, dark brown trousers",
+      "position": {
+        "absolute": "upper-right",
+        "relative_to": [
+          {
+            "object_id": "D",
+            "relation": "behind"
+          },
+          {
+            "object_id": "B",
+            "relation": "behind right_of"
+          }
+        ]
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "id_1": "B",
+      "id_2": "A",
+      "relationship": "holding"
+    },
+    {
+      "id_1": "C",
+      "id_2": "A",
+      "relationship": "supporting"
+    },
+    {
+      "id_1": "D",
+      "id_2": "A",
+      "relationship": "supporting"
+    },
+    {
+      "id_1": "B",
+      "id_2": "A",
+      "relationship": "looking_at"
+    },
+    {
+      "id_1": "C",
+      "id_2": "A",
+      "relationship": "looking_at"
+    },
+    {
+      "id_1": "D",
+      "id_2": "A",
+      "relationship": "looking_at"
+    },
+    {
+      "id_1": "E",
+      "id_2": "A",
+      "relationship": "looking_at"
+    },
+    {
+      "id_1": "E",
+      "id_2": "B",
+      "relationship": "standing_behind"
+    },
+    {
+      "id_1": "E",
+      "id_2": "D",
+      "relationship": "standing_behind"
+    }
+  ]
+}

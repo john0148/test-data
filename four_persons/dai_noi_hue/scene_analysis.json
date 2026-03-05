@@ -1,0 +1,99 @@
+{
+  "objects": [
+    {
+      "id": "A",
+      "name": "Young woman with auburn hair",
+      "outfit": "Red oversized knit sweater",
+      "position": {
+        "absolute": "upper-left",
+        "relative_to": []
+      }
+    },
+    {
+      "id": "B",
+      "name": "Teenage girl",
+      "outfit": "Yellow hooded sweatshirt",
+      "position": {
+        "absolute": "upper-right",
+        "relative_to": [
+          {
+            "object_id": "A",
+            "relation": "right_of"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C",
+      "name": "Man with beard",
+      "outfit": "Blue denim shirt",
+      "position": {
+        "absolute": "lower-left",
+        "relative_to": [
+          {
+            "object_id": "A",
+            "relation": "below"
+          },
+          {
+            "object_id": "B",
+            "relation": "lower_left_of"
+          }
+        ]
+      }
+    },
+    {
+      "id": "D",
+      "name": "Woman",
+      "outfit": "Green long-sleeved top",
+      "position": {
+        "absolute": "lower-right",
+        "relative_to": [
+          {
+            "object_id": "B",
+            "relation": "below"
+          },
+          {
+            "object_id": "A",
+            "relation": "lower_right_of"
+          },
+          {
+            "object_id": "C",
+            "relation": "right_of"
+          }
+        ]
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "id_1": "A",
+      "id_2": "C",
+      "relationship": "touching"
+    },
+    {
+      "id_1": "A",
+      "id_2": "B",
+      "relationship": "next_to"
+    },
+    {
+      "id_1": "A",
+      "id_2": "D",
+      "relationship": "next_to"
+    },
+    {
+      "id_1": "B",
+      "id_2": "D",
+      "relationship": "next_to"
+    },
+    {
+      "id_1": "C",
+      "id_2": "D",
+      "relationship": "next_to"
+    },
+    {
+      "id_1": "B",
+      "id_2": "C",
+      "relationship": "near"
+    }
+  ]
+}

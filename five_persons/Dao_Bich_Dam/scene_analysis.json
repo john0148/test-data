@@ -1,0 +1,133 @@
+{
+  "objects": [
+    {
+      "id": "A",
+      "name": "elderly man",
+      "outfit": "navy blue blazer, white collared shirt, dark trousers",
+      "position": {
+        "absolute": "left-center",
+        "relative_to": [
+          {
+            "object_id": "B",
+            "relation": "left_of"
+          }
+        ]
+      }
+    },
+    {
+      "id": "B",
+      "name": "young woman with red curly hair",
+      "outfit": "sunflower yellow maxi dress",
+      "position": {
+        "absolute": "center",
+        "relative_to": [
+          {
+            "object_id": "A",
+            "relation": "right_of"
+          },
+          {
+            "object_id": "C",
+            "relation": "left_of"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C",
+      "name": "teenage boy",
+      "outfit": "forest green graphic t-shirt with a white graphic design, dark grey cargo shorts",
+      "position": {
+        "absolute": "mid-right",
+        "relative_to": [
+          {
+            "object_id": "B",
+            "relation": "right_of"
+          }
+        ]
+      }
+    },
+    {
+      "id": "D",
+      "name": "middle-aged woman",
+      "outfit": "cream silk blouse, burgundy knee-length skirt",
+      "position": {
+        "absolute": "right-center",
+        "relative_to": [
+          {
+            "object_id": "C",
+            "relation": "right_of"
+          },
+          {
+            "object_id": "E",
+            "relation": "slightly_behind"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E",
+      "name": "young girl",
+      "outfit": "lavender polka-dot pinafore over a white t-shirt, white tights",
+      "position": {
+        "absolute": "lower-right",
+        "relative_to": [
+          {
+            "object_id": "D",
+            "relation": "left_of"
+          },
+          {
+            "object_id": "D",
+            "relation": "slightly_in_front_of"
+          }
+        ]
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "id_1": "A",
+      "id_2": "B",
+      "relationship": "arm around shoulders and looking_at"
+    },
+    {
+      "id_1": "B",
+      "id_2": "C",
+      "relationship": "arm around shoulders and looking_at"
+    },
+    {
+      "id_1": "C",
+      "id_2": "B",
+      "relationship": "looking_at"
+    },
+    {
+      "id_1": "D",
+      "id_2": "E",
+      "relationship": "arm around and leaning_against"
+    },
+    {
+      "id_1": "E",
+      "id_2": "D",
+      "relationship": "leaning_against"
+    },
+    {
+      "id_1": "D",
+      "id_2": "B",
+      "relationship": "looking_at"
+    },
+    {
+      "id_1": "D",
+      "id_2": "C",
+      "relationship": "looking_at"
+    },
+    {
+      "id_1": "E",
+      "id_2": "B",
+      "relationship": "looking_at"
+    },
+    {
+      "id_1": "E",
+      "id_2": "C",
+      "relationship": "looking_at"
+    }
+  ]
+}

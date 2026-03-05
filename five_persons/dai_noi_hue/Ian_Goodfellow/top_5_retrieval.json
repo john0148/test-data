@@ -1,0 +1,27 @@
+[
+    {
+        "retrieved_entity": "The North Face Nuptse Jacket",
+        "similarity_score": 0.23237890005111694,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Golden Oscar Statue",
+        "similarity_score": 0.22149616479873657,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Lego Harry Potter Model",
+        "similarity_score": 0.18668922781944275,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Kindle Paperwhite 11th Gen E-Reader",
+        "similarity_score": 0.17926648259162903,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Harry Potter Gryffindor Robe Cosplay Costume",
+        "similarity_score": 0.16926151514053345,
+        "metadata": []
+    }
+]

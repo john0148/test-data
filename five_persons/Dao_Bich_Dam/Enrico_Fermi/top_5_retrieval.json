@@ -1,0 +1,27 @@
+[
+    {
+        "retrieved_entity": "Atomic Habits By James Clear Book",
+        "similarity_score": 0.2887691259384155,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Chanel Coco Mademoiselle 50ml",
+        "similarity_score": 0.23784421384334564,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Fitus Mascot",
+        "similarity_score": 0.21935296058654785,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "H&M A-Line Satin Slip Dress 112233",
+        "similarity_score": 0.18489199876785278,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Tommy Hilfiger Signature Polo Shirt",
+        "similarity_score": 0.18351295590400696,
+        "metadata": []
+    }
+]

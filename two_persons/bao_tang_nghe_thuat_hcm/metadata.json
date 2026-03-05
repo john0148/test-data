@@ -1,0 +1,44 @@
+{
+  "location": "bao_tang_nghe_thuat_hcm",
+  "entry_id": "20251120_100501",
+  "original_prompt": "Seamlessly integrated into the provided background scene, occupying the mid-ground, Michio Kaku, a young woman, stands in the left-center of the frame, positioned slightly in front of the man; she is clad in a Manchester United football jersey, black tailored trousers, and accessorized with long dangling earrings. To her right, anchored in the right-center and slightly behind her, is Michael Jordan, an older man, dressed in a terracotta brown jacket, dark blue shirt, and dark denim jeans, holding a Dior Sauvage perfume bottle. The two are closely standing next to each other, locked in an embrace with Michael Jordan's other arm wrapped around Michio Kaku, who looks at him while gently touching his face. This intimate moment is captured with photorealistic subjects, sharp focus on the characters, and a shallow depth of field to emphasize their interaction.",
+  "generalized_prompt": "Seamlessly integrated into the provided background scene, occupying the mid-ground, Woman A wearing red top and red pants, stands in the left-center of the frame, positioned slightly in front of Man A wearing blue top and blue pants; she is clad in a green football jersey, red tailored trousers, and accessorized with long dangling earrings. To her right, anchored in the right-center and slightly behind her, is Man A wearing blue top and blue pants, dressed in a terracotta brown jacket, dark blue shirt, and dark denim jeans, holding a yellow perfume bottle. The two are closely standing next to each other, locked in an embrace with Man A's other arm wrapped around Woman A, who looks at him while gently touching his face. This intimate moment is captured with photorealistic subjects, sharp focus on the characters, and a shallow depth of field to emphasize their interaction.",
+  "entities": [
+    {
+      "entity": "Michio Kaku",
+      "type": "human",
+      "description": "Michio Kaku, a young woman, stands in the left-center of the frame, positioned slightly in front of the man, wearing a Manchester United football jersey, black tailored trousers, and accessorized with long dangling earrings.",
+      "replacement_name": "Woman A",
+      "image_file": "Michio_Kaku.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "Michael Jordan",
+      "type": "human",
+      "description": "Michael Jordan, an older man, is positioned in the right-center and slightly behind Michio Kaku, dressed in a terracotta brown jacket, dark blue shirt, and dark denim jeans, holding a Dior Sauvage perfume bottle.",
+      "replacement_name": "Man A",
+      "image_file": "Michael_Jordan.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "Manchester United",
+      "type": "object",
+      "description": "Michio Kaku is wearing a Manchester United football jersey, which is part of her outfit.",
+      "replacement_name": "football team",
+      "image_file": "Manchester_United.jpg",
+      "retrieved_entity": "Manchester United Home Jersey 2024/25 Football Shirt",
+      "folder_name": "áo_bóng_đá_manchester_united_home_jersey_202425"
+    },
+    {
+      "entity": "Dior Sauvage",
+      "type": "object",
+      "description": "Michael Jordan is holding a Dior Sauvage perfume bottle, which is an accessory he is carrying.",
+      "replacement_name": "perfume",
+      "image_file": "Dior_Sauvage.jpg",
+      "retrieved_entity": "Dior Sauvage 100ml",
+      "folder_name": "dior_sauvage_100ml"
+    }
+  ]
+}

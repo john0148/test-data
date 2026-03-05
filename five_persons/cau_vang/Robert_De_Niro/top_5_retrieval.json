@@ -1,0 +1,27 @@
+[
+    {
+        "retrieved_entity": "The North Face Nuptse Jacket",
+        "similarity_score": 0.25749507546424866,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Dior Sauvage Perfume Sample",
+        "similarity_score": 0.2318481206893921,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Armaf Club De Nuit Intense Man EDT Perfume 105ml",
+        "similarity_score": 0.22247110307216644,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Dior Sauvage 100ml",
+        "similarity_score": 0.22105050086975098,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Armaf Club De Nuit Women EDP Perfume 105ml",
+        "similarity_score": 0.21932294964790344,
+        "metadata": []
+    }
+]

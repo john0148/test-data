@@ -1,0 +1,53 @@
+{
+  "location": "Lam_Vien_Square",
+  "entry_id": "20251122_040212",
+  "original_prompt": "Seamlessly integrated into the provided background scene, Lady Gaga, a young man wearing a Barcelona football jersey, is centrally positioned in the foreground, forming the core of a group hug. Anchored in the lower-left foreground and positioned immediately to the young man's left, Mark Twain, an elderly woman in a bright yellow loose-fitting blouse, is warmly hugging him. Simultaneously, occupying the lower-right foreground and positioned immediately to the young man's right, Werner Heisenberg, a middle-aged woman in a deep red lightweight jacket, is also hugging him while holding a Honda SH motorcycle, creating a unified and intimate cluster. photorealistic subjects, sharp focus on characters.",
+  "generalized_prompt": "Seamlessly integrated into the provided background scene, Woman A wearing red top and red pants, a young Man A wearing blue top and blue pants, is centrally positioned in the foreground, forming the core of a group hug. Anchored in the lower-left foreground and positioned immediately to the young Man A's left, Man A wearing blue top and blue pants, a middle-aged Woman B wearing green top and green pants, is warmly hugging him. Simultaneously, occupying the lower-right foreground and positioned immediately to the young Man A's right, Woman B wearing green top and green pants, is also hugging him while holding a purple motorcycle, creating a unified and intimate cluster. photorealistic subjects, sharp focus on characters.",
+  "entities": [
+    {
+      "entity": "Lady Gaga",
+      "type": "human",
+      "description": "Lady Gaga is centrally positioned in the foreground, forming the core of a group hug.",
+      "replacement_name": "Woman A",
+      "image_file": "Lady_Gaga.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "Mark Twain",
+      "type": "human",
+      "description": "An elderly woman in a bright yellow loose-fitting blouse is positioned immediately to the young man's left, hugging him.",
+      "replacement_name": "Man A",
+      "image_file": "Mark_Twain.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "Werner Heisenberg",
+      "type": "human",
+      "description": "A middle-aged woman in a deep red lightweight jacket is positioned immediately to the young man's right, hugging him while holding a Honda SH motorcycle.",
+      "replacement_name": "Woman B",
+      "image_file": "Werner_Heisenberg.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "Barcelona football jersey",
+      "type": "object",
+      "description": "The young man is wearing a Barcelona football jersey, which is part of the group hug scene.",
+      "replacement_name": "jersey",
+      "image_file": "Barcelona_football_jersey.jpg",
+      "retrieved_entity": "Barcelona Home Kit 2024/25 Football Shirt",
+      "folder_name": "áo_bóng_đá_barcelona_home_kit_202425"
+    },
+    {
+      "entity": "Honda SH motorcycle",
+      "type": "object",
+      "description": "Werner Heisenberg is holding a Honda SH motorcycle, which is part of the group hug scene.",
+      "replacement_name": "motorcycle",
+      "image_file": "Honda_SH_motorcycle.jpg",
+      "retrieved_entity": "Honda SH Scooter",
+      "folder_name": "xe_máy_honda_sh"
+    }
+  ]
+}

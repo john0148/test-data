@@ -1,0 +1,30 @@
+{
+    "original_prompt": "Seamlessly integrated into the provided background scene, occupying the bottom-center foreground is René Descartes, a child wearing a yellow hoodie and blue jeans, holding a Totoro plush toy, looking at the young man and touching the elder man. Positioned directly above the child, in the central mid-ground, stands John D. Rockefeller, an elder man in a blue polo shirt, grey pants, and a silver watch on his left wrist, holding a Logitech MX Keys keyboard, who is hugging the young man, holding the young woman, and being touched by the child. To the middle-left, slightly below the elder man and slightly above the child, is Thomas Jefferson, a young man in a green t-shirt and blue jeans, holding a DJI Mini 4 Pro drone, looking at the elder man while being hugged by him. Mirroring this on the middle-right, slightly below the elder man and slightly above the child, is Muhammad Ali, a young woman wearing a red long-sleeved dress and a black watch on her left wrist, looking at and touching the elder man, who is holding her; photorealistic subjects, sharp focus on characters.",
+    "generalized_prompt": "Seamlessly integrated into the provided background scene, occupying the bottom-center foreground is Man A wearing red top and red pants, a child in a yellow hoodie and blue jeans, holding a Totoro plush toy, looking at the young man and touching the elder man. Positioned directly above the child, in the central mid-ground, stands Man B wearing blue top and blue pants, an elder man in a blue polo shirt, grey pants, and a silver watch on his left wrist, holding a Logitech MX Keys keyboard, who is hugging the young man, holding the young woman, and being touched by the child. To the middle-left, slightly below the elder man and slightly above the child, is Young Man A wearing green top and green pants, a young man holding a DJI Mini 4 Pro drone, looking at the elder man while being hugged by him. Mirroring this on the middle-right, slightly below the elder man and slightly above the child, is Young Woman A wearing yellow top and yellow pants, looking at and touching the elder man, who is holding her; photorealistic subjects, sharp focus on characters.",
+    "entities": [
+        {
+            "entity": "René Descartes",
+            "replacement_name": "Man A",
+            "description": "René Descartes is a child wearing a yellow hoodie and blue jeans, holding a Totoro plush toy, positioned in the bottom-center foreground of the scene, looking at the young man and touching the elder man.",
+            "type": "human"
+        },
+        {
+            "entity": "John D. Rockefeller",
+            "replacement_name": "Man B",
+            "description": "John D. Rockefeller is an elder man in a blue polo shirt, grey pants, and a silver watch on his left wrist, holding a Logitech MX Keys keyboard, standing in the central mid-ground, hugging the young man, holding the young woman, and being touched by the child.",
+            "type": "human"
+        },
+        {
+            "entity": "Thomas Jefferson",
+            "replacement_name": "Young Man A",
+            "description": "Thomas Jefferson is a young man in a green t-shirt and blue jeans, holding a DJI Mini 4 Pro drone, positioned in the middle-left, slightly below the elder man and slightly above the child, looking at the elder man while being hugged by him.",
+            "type": "human"
+        },
+        {
+            "entity": "Muhammad Ali",
+            "replacement_name": "Young Woman A",
+            "description": "Muhammad Ali is a young woman wearing a red long-sleeved dress and a black watch on her left wrist, positioned in the middle-right, slightly below the elder man and slightly above the child, looking at and touching the elder man, who is holding her.",
+            "type": "human"
+        }
+    ]
+}

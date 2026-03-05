@@ -1,0 +1,27 @@
+[
+    {
+        "retrieved_entity": "Golden Oscar Statue",
+        "similarity_score": 0.2668413817882538,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Fitus Mascot",
+        "similarity_score": 0.2042289823293686,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Marvel Spider-Man Sweater",
+        "similarity_score": 0.19407358765602112,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Pikachu Funko Pop",
+        "similarity_score": 0.17764760553836823,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Official Pokemon Pikachu Sweater",
+        "similarity_score": 0.16849812865257263,
+        "metadata": []
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "retrieved_entity": "Golden Oscar Statue",
+        "similarity_score": 0.3731427788734436,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Star Wars Darth Vader Black Hoodie",
+        "similarity_score": 0.2390781044960022,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Rolex Submariner Watch",
+        "similarity_score": 0.23352235555648804,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "The North Face Nuptse Jacket",
+        "similarity_score": 0.22090397775173187,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Harry Potter Gryffindor Robe Cosplay Costume",
+        "similarity_score": 0.20649990439414978,
+        "metadata": []
+    }
+]

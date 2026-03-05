@@ -1,0 +1,114 @@
+{
+  "objects": [
+    {
+      "id": "A",
+      "name": "Elderly woman",
+      "outfit": "Red coat",
+      "position": {
+        "absolute": "upper-left",
+        "relative_to": [
+          {
+            "object_id": "B",
+            "relation": "left_of"
+          },
+          {
+            "object_id": "C",
+            "relation": "above"
+          },
+          {
+            "object_id": "D",
+            "relation": "above and slightly_left_of"
+          }
+        ]
+      }
+    },
+    {
+      "id": "B",
+      "name": "Young man",
+      "outfit": "Blue button-down shirt",
+      "position": {
+        "absolute": "upper-right",
+        "relative_to": [
+          {
+            "object_id": "A",
+            "relation": "right_of"
+          },
+          {
+            "object_id": "C",
+            "relation": "above and slightly_right_of"
+          },
+          {
+            "object_id": "D",
+            "relation": "above"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C",
+      "name": "Young girl",
+      "outfit": "Yellow rain jacket",
+      "position": {
+        "absolute": "lower-left",
+        "relative_to": [
+          {
+            "object_id": "A",
+            "relation": "below and in_front_of"
+          },
+          {
+            "object_id": "B",
+            "relation": "below and slightly_left_of"
+          },
+          {
+            "object_id": "D",
+            "relation": "left_of"
+          }
+        ]
+      }
+    },
+    {
+      "id": "D",
+      "name": "Middle-aged man",
+      "outfit": "Green t-shirt",
+      "position": {
+        "absolute": "lower-right",
+        "relative_to": [
+          {
+            "object_id": "A",
+            "relation": "below and slightly_right_of"
+          },
+          {
+            "object_id": "B",
+            "relation": "below and in_front_of"
+          },
+          {
+            "object_id": "C",
+            "relation": "right_of"
+          }
+        ]
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "id_1": "A",
+      "id_2": "B",
+      "relationship": "arm draped over shoulder and bodies touching"
+    },
+    {
+      "id_1": "A",
+      "id_2": "C",
+      "relationship": "C leaning against A's legs and A's hand on C's shoulder"
+    },
+    {
+      "id_1": "B",
+      "id_2": "D",
+      "relationship": "D leaning against B's legs and B's arm around D's shoulder"
+    },
+    {
+      "id_1": "C",
+      "id_2": "D",
+      "relationship": "C's head resting on D's shoulder and D's arm around C's back"
+    }
+  ]
+}

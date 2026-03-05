@@ -1,0 +1,35 @@
+{
+  "location": "Son_Tay_ancient_citadel",
+  "entry_id": "20251120_060851",
+  "original_prompt": "Seamlessly integrated into the provided background scene, positioned in the mid-ground at the middle-left of the frame is Sam Walton, a young woman, wearing an áo hoodie Marvel Spider-Man. To her right and slightly above, occupying the middle-right, is Queen Elizabeth II, an elderly man, dressed in a pale yellow linen shirt, dark grey slacks, black loafers, with a silver watch and black-framed glasses, holding a Funko Pop Pikachu; the man is looking at and leaning towards the woman, who stands next to him. Photorealistic subjects, sharp focus on characters, natural light.",
+  "generalized_prompt": "Seamlessly integrated into the provided background scene, positioned in the mid-ground at the middle-left of the frame is Man A wearing red top and red pants. To his right and slightly above, occupying the middle-right, is Woman A wearing blue top and blue pants, holding a green Pikachu; Woman A is looking at and leaning towards Man A, who stands next to her. Photorealistic subjects, sharp focus on characters, natural light.",
+  "entities": [
+    {
+      "entity": "Sam Walton",
+      "type": "human",
+      "description": "Sam Walton, a young woman, is positioned in the mid-ground at the middle-left of the frame, wearing an áo hoodie Marvel Spider-Man.",
+      "replacement_name": "Man A",
+      "image_file": "Sam_Walton.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "Queen Elizabeth II",
+      "type": "human",
+      "description": "Queen Elizabeth II, an elderly man, is positioned in the middle-right of the frame, wearing a pale yellow linen shirt, dark grey slacks, black loafers, with a silver watch and black-framed glasses. He is holding a Funko Pop Pikachu and looking at and leaning towards the woman standing next to him.",
+      "replacement_name": "Woman A",
+      "image_file": "Queen_Elizabeth_II.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "Funko Pop Pikachu",
+      "type": "object",
+      "description": "A Funko Pop Pikachu is held by Queen Elizabeth II, who is positioned in the middle-right of the frame, wearing a pale yellow linen shirt, dark grey slacks, black loafers, with a silver watch and black-framed glasses.",
+      "replacement_name": "Pikachu",
+      "image_file": "Funko_Pop_Pikachu.png",
+      "retrieved_entity": "Pikachu Funko Pop",
+      "folder_name": "funko_pop_pikachu"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "objects": [
+    {
+      "id": "A",
+      "name": "Young girl",
+      "outfit": "Yellow sundress, red and blue bracelets on left wrist",
+      "position": {
+        "absolute": "left",
+        "relative_to": [
+          {
+            "object_id": "B",
+            "relation": "slightly_left_of and in_front_of"
+          },
+          {
+            "object_id": "C",
+            "relation": "far_left_of"
+          },
+          {
+            "object_id": "D",
+            "relation": "far_left_of"
+          }
+        ]
+      }
+    },
+    {
+      "id": "B",
+      "name": "Teenage boy",
+      "outfit": "Green graphic t-shirt, dark pants",
+      "position": {
+        "absolute": "middle-left",
+        "relative_to": [
+          {
+            "object_id": "A",
+            "relation": "slightly_right_of and slightly_behind"
+          },
+          {
+            "object_id": "C",
+            "relation": "left_of"
+          },
+          {
+            "object_id": "D",
+            "relation": "far_left_of"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C",
+      "name": "Woman",
+      "outfit": "Red trench coat dress, gold ring on right ring finger",
+      "position": {
+        "absolute": "middle-right",
+        "relative_to": [
+          {
+            "object_id": "A",
+            "relation": "far_right_of"
+          },
+          {
+            "object_id": "B",
+            "relation": "right_of"
+          },
+          {
+            "object_id": "D",
+            "relation": "slightly_left_of and slightly_in_front_of"
+          }
+        ]
+      }
+    },
+    {
+      "id": "D",
+      "name": "Man",
+      "outfit": "Blue long-sleeve button-up shirt, dark pants, gold watch on left wrist",
+      "position": {
+        "absolute": "right",
+        "relative_to": [
+          {
+            "object_id": "A",
+            "relation": "far_right_of"
+          },
+          {
+            "object_id": "B",
+            "relation": "far_right_of"
+          },
+          {
+            "object_id": "C",
+            "relation": "slightly_right_of and slightly_behind"
+          }
+        ]
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "id_1": "A",
+      "id_2": "B",
+      "relationship": "hugging and looking_at"
+    },
+    {
+      "id_1": "C",
+      "id_2": "D",
+      "relationship": "hugging and looking_at"
+    }
+  ]
+}

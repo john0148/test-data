@@ -1,0 +1,26 @@
+{
+  "location": "chua-tran-quoc",
+  "entry_id": "20251121_235618",
+  "original_prompt": "Seamlessly integrated into the provided background scene, positioned in the center-left mid-ground is David Hume, a young woman, wearing an Attack on Titan Survey Corps uniform, a gold necklace, and small gold hoop earrings. Slightly behind her and to her right, occupying the center-right mid-ground, stands Ken Thompson, an older woman, dressed in a red cardigan, white t-shirt, dark blue trousers, black-rimmed glasses, and a silver necklace, holding an Iron Man action figure. The older woman is embracing the young woman, with her head resting near the young woman's shoulder, as both look at each other, sharing a tender moment; photorealistic subjects, sharp focus on characters, warm lighting, emotional portrait.",
+  "generalized_prompt": "Seamlessly integrated into the provided background scene, positioned in the center-left mid-ground is Man A wearing a red top and red pants, a gold necklace, and small gold hoop earrings. Slightly behind him and to his right, occupying the center-right mid-ground, stands Woman A wearing a blue top and blue pants, a silver necklace, and holding an Iron Man action figure. The older woman is embracing the young woman, with her head resting near the young woman's shoulder, as both look at each other, sharing a tender moment; photorealistic subjects, sharp focus on characters, warm lighting, emotional portrait.",
+  "entities": [
+    {
+      "entity": "David Hume",
+      "type": "human",
+      "description": "David Hume, a young woman, is positioned in the center-left mid-ground of the provided background scene, wearing an Attack on Titan Survey Corps uniform, a gold necklace, and small gold hoop earrings.",
+      "replacement_name": "Man A",
+      "image_file": "David_Hume.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "Ken Thompson",
+      "type": "human",
+      "description": "Ken Thompson, an older woman, is positioned in the center-right mid-ground, dressed in a red cardigan, white t-shirt, dark blue trousers, black-rimmed glasses, and a silver necklace. She is holding an Iron Man action figure and is embracing the young woman, with her head resting near the young woman's shoulder, as both look at each other, sharing a tender moment.",
+      "replacement_name": "Woman A",
+      "image_file": "Ken_Thompson.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "location": "One_Pillar_Pagoda_Hanoi",
+  "entry_id": "20251120_110955",
+  "original_prompt": "Seamlessly integrated into the provided background scene, Ilya Sutskever, a young boy dressed in an orange t-shirt, holding a Funko Pop Pikachu, occupies the foreground. Positioned in the middle-center, directly behind the boy, is Gregor Mendel, a middle-aged woman wearing a deep violet blouse, a delicate necklace, and a silver ring on her left hand. Further in the background, towards the middle-right, Robert Oppenheimer, an elderly man wearing an áo hoodie Champion, stands behind and slightly to the right of the woman, attentively looking at her; photorealistic subjects, sharp focus on characters, natural lighting.",
+  "generalized_prompt": "Seamlessly integrated into the provided background scene, Boy A wearing red top and red pants, holding a Funko Pop Pikachu, occupies the foreground. Positioned in the middle-center, directly behind the boy, is Woman A wearing blue top and blue pants. Further in the background, towards the middle-right, Man A wearing green top and green pants, stands behind and slightly to the right of Woman A, attentively looking at her; photorealistic subjects, sharp focus on characters, natural lighting.",
+  "entities": [
+    {
+      "entity": "Ilya Sutskever",
+      "type": "human",
+      "description": "Ilya Sutskever is the main subject in the foreground, a young boy dressed in an orange t-shirt.",
+      "replacement_name": "Boy A",
+      "image_file": "Ilya_Sutskever.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "Gregor Mendel",
+      "type": "human",
+      "description": "Gregor Mendel is positioned in the middle-center, a middle-aged woman wearing a deep violet blouse, a delicate necklace, and a silver ring on her left hand.",
+      "replacement_name": "Woman A",
+      "image_file": "Gregor_Mendel.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "Robert Oppenheimer",
+      "type": "human",
+      "description": "Robert Oppenheimer is further in the background, towards the middle-right, an elderly man wearing an áo hoodie Champion, standing behind and slightly to the right of the woman, looking at her attentively.",
+      "replacement_name": "Man A",
+      "image_file": "Robert_Oppenheimer.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    }
+  ]
+}

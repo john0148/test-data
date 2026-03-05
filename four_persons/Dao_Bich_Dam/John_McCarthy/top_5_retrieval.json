@@ -1,0 +1,27 @@
+[
+    {
+        "retrieved_entity": "Marvel Spider-Man Sweater",
+        "similarity_score": 0.31361138820648193,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Tommy Hilfiger Signature Polo Shirt",
+        "similarity_score": 0.3001652657985687,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "The North Face Nuptse Jacket",
+        "similarity_score": 0.2723827064037323,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Atomic Habits By James Clear Book",
+        "similarity_score": 0.23054343461990356,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Spider-Man Across The Spider-Verse Official T-Shirt",
+        "similarity_score": 0.2214166522026062,
+        "metadata": []
+    }
+]

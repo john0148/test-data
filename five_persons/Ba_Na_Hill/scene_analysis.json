@@ -1,0 +1,119 @@
+{
+  "objects": [
+    {
+      "id": "A",
+      "name": "Man",
+      "outfit": "Navy blue tailored suit, light blue dress shirt",
+      "position": {
+        "absolute": "upper-left",
+        "relative_to": [
+          {
+            "object_id": "B",
+            "relation": "left_of"
+          },
+          {
+            "object_id": "C",
+            "relation": "above"
+          }
+        ]
+      }
+    },
+    {
+      "id": "B",
+      "name": "Young woman",
+      "outfit": "White crop top, light wash blue jeans, white sneakers",
+      "position": {
+        "absolute": "upper-center",
+        "relative_to": [
+          {
+            "object_id": "A",
+            "relation": "right_of"
+          },
+          {
+            "object_id": "E",
+            "relation": "left_of"
+          },
+          {
+            "object_id": "D",
+            "relation": "above"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C",
+      "name": "Elderly woman",
+      "outfit": "Green pantsuit, gold necklace",
+      "position": {
+        "absolute": "lower-left",
+        "relative_to": [
+          {
+            "object_id": "A",
+            "relation": "below"
+          },
+          {
+            "object_id": "D",
+            "relation": "left_of"
+          }
+        ]
+      }
+    },
+    {
+      "id": "D",
+      "name": "Young boy",
+      "outfit": "Vibrant yellow t-shirt, blue jeans, red and blue sneakers",
+      "position": {
+        "absolute": "lower-center",
+        "relative_to": [
+          {
+            "object_id": "B",
+            "relation": "below"
+          },
+          {
+            "object_id": "C",
+            "relation": "right_of"
+          },
+          {
+            "object_id": "E",
+            "relation": "left_of"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E",
+      "name": "Woman",
+      "outfit": "Deep magenta maxi dress, black sandals",
+      "position": {
+        "absolute": "upper-right",
+        "relative_to": [
+          {
+            "object_id": "B",
+            "relation": "right_of"
+          },
+          {
+            "object_id": "D",
+            "relation": "right_of"
+          }
+        ]
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "id_1": "A",
+      "id_2": "B",
+      "relationship": "touching shoulder of"
+    },
+    {
+      "id_1": "D",
+      "id_2": "B",
+      "relationship": "looking_at"
+    },
+    {
+      "id_1": "D",
+      "id_2": "E",
+      "relationship": "holding hands with"
+    }
+  ]
+}

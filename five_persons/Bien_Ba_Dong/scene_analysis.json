@@ -1,0 +1,114 @@
+{
+  "objects": [
+    {
+      "id": "A",
+      "name": "man",
+      "outfit": "black suit, black collared shirt",
+      "position": {
+        "absolute": "upper-left",
+        "relative_to": [
+          {
+            "object_id": "B",
+            "relation": "left_of"
+          },
+          {
+            "object_id": "C",
+            "relation": "above"
+          },
+          {
+            "object_id": "D",
+            "relation": "above"
+          }
+        ]
+      }
+    },
+    {
+      "id": "B",
+      "name": "young woman",
+      "outfit": "bright yellow sundress, light-colored shoes",
+      "position": {
+        "absolute": "upper-right",
+        "relative_to": [
+          {
+            "object_id": "A",
+            "relation": "right_of"
+          },
+          {
+            "object_id": "C",
+            "relation": "above"
+          },
+          {
+            "object_id": "D",
+            "relation": "above"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C",
+      "name": "elderly woman",
+      "outfit": "indigo cardigan, white blouse, light-colored trousers, black shoes",
+      "position": {
+        "absolute": "lower-left",
+        "relative_to": [
+          {
+            "object_id": "A",
+            "relation": "below"
+          },
+          {
+            "object_id": "B",
+            "relation": "below"
+          },
+          {
+            "object_id": "D",
+            "relation": "left_of"
+          }
+        ]
+      }
+    },
+    {
+      "id": "D",
+      "name": "middle-aged woman",
+      "outfit": "rust-orange blazer, dark green t-shirt, blue cuffed jeans, dark shoes",
+      "position": {
+        "absolute": "lower-right",
+        "relative_to": [
+          {
+            "object_id": "A",
+            "relation": "below"
+          },
+          {
+            "object_id": "B",
+            "relation": "below"
+          },
+          {
+            "object_id": "C",
+            "relation": "right_of"
+          }
+        ]
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "id_1": "A",
+      "id_2": "B",
+      "relationship": "touching"
+    },
+    {
+      "id_1": "D",
+      "id_2": "C",
+      "relationship": "looking_at and sitting_next_to"
+    },
+    {
+      "id_1": "D",
+      "id_2": "A",
+      "relationship": "looking_towards"
+    },
+    {
+      "id_1": "D",
+      "id_2": "B",
+      "relationship": "looking_towards"
+    }
+  ]
+}

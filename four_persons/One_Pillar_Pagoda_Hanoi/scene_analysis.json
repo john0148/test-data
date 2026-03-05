@@ -1,0 +1,81 @@
+{
+  "objects": [
+    {
+      "id": "A",
+      "name": "Young woman",
+      "outfit": "Magenta t-shirt, blue jeans",
+      "position": {
+        "absolute": "foreground left",
+        "relative_to": []
+      }
+    },
+    {
+      "id": "B",
+      "name": "Man with beard",
+      "outfit": "Forest green plaid shirt, blue jeans",
+      "position": {
+        "absolute": "middle-left",
+        "relative_to": [
+          {
+            "object_id": "A",
+            "relation": "behind and slightly_right_of"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C",
+      "name": "Older woman",
+      "outfit": "Royal blue cardigan, black pants, gold watch",
+      "position": {
+        "absolute": "middle-right",
+        "relative_to": [
+          {
+            "object_id": "B",
+            "relation": "right_of"
+          }
+        ]
+      }
+    },
+    {
+      "id": "D",
+      "name": "Young man",
+      "outfit": "Sunny yellow t-shirt, blue jeans",
+      "position": {
+        "absolute": "background center",
+        "relative_to": [
+          {
+            "object_id": "B",
+            "relation": "behind and slightly_right_of"
+          },
+          {
+            "object_id": "C",
+            "relation": "behind and slightly_left_of"
+          }
+        ]
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "id_1": "B",
+      "id_2": "C",
+      "relationship": "shaking_hands"
+    },
+    {
+      "id_1": "A",
+      "id_2": "B",
+      "relationship": "looking_at"
+    },
+    {
+      "id_1": "B",
+      "id_2": "C",
+      "relationship": "looking_at"
+    },
+    {
+      "id_1": "C",
+      "id_2": "B",
+      "relationship": "looking_at"
+    }
+  ]
+}

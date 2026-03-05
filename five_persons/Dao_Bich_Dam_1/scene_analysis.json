@@ -1,0 +1,151 @@
+{
+  "objects": [
+    {
+      "id": "A",
+      "name": "middle-aged man",
+      "outfit": "deep blue polo shirt and khaki trousers",
+      "position": {
+        "absolute": "left",
+        "relative_to": [
+          {
+            "object_id": "B",
+            "relation": "slightly_behind"
+          }
+        ]
+      }
+    },
+    {
+      "id": "B",
+      "name": "young woman",
+      "outfit": "vibrant yellow sundress",
+      "position": {
+        "absolute": "middle-left",
+        "relative_to": [
+          {
+            "object_id": "A",
+            "relation": "in_front_of"
+          },
+          {
+            "object_id": "C",
+            "relation": "left_of"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C",
+      "name": "elderly woman",
+      "outfit": "emerald green silk blouse and tailored charcoal grey trousers",
+      "position": {
+        "absolute": "middle-center",
+        "relative_to": [
+          {
+            "object_id": "B",
+            "relation": "right_of"
+          },
+          {
+            "object_id": "D",
+            "relation": "left_of"
+          }
+        ]
+      }
+    },
+    {
+      "id": "D",
+      "name": "young man",
+      "outfit": "casual crimson red hoodie and dark wash jeans",
+      "position": {
+        "absolute": "right",
+        "relative_to": [
+          {
+            "object_id": "C",
+            "relation": "right_of"
+          },
+          {
+            "object_id": "E",
+            "relation": "slightly_behind"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E",
+      "name": "small child",
+      "outfit": "playful orange t-shirt and striped overalls",
+      "position": {
+        "absolute": "bottom-center",
+        "relative_to": [
+          {
+            "object_id": "C",
+            "relation": "in_front_of"
+          },
+          {
+            "object_id": "D",
+            "relation": "in_front_of"
+          },
+          {
+            "object_id": "C",
+            "relation": "below"
+          }
+        ]
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "id_1": "A",
+      "id_2": "B",
+      "relationship": "hugging"
+    },
+    {
+      "id_1": "A",
+      "id_2": "B",
+      "relationship": "looking_at"
+    },
+    {
+      "id_1": "B",
+      "id_2": "C",
+      "relationship": "hands touching"
+    },
+    {
+      "id_1": "B",
+      "id_2": "C",
+      "relationship": "looking_at"
+    },
+    {
+      "id_1": "C",
+      "id_2": "D",
+      "relationship": "hands touching"
+    },
+    {
+      "id_1": "C",
+      "id_2": "B",
+      "relationship": "looking_at"
+    },
+    {
+      "id_1": "C",
+      "id_2": "D",
+      "relationship": "looking_at"
+    },
+    {
+      "id_1": "D",
+      "id_2": "C",
+      "relationship": "looking_at"
+    },
+    {
+      "id_1": "E",
+      "id_2": "D",
+      "relationship": "standing_next_to"
+    },
+    {
+      "id_1": "E",
+      "id_2": "D",
+      "relationship": "looking_at"
+    },
+    {
+      "id_1": "E",
+      "id_2": "C",
+      "relationship": "looking_at"
+    }
+  ]
+}

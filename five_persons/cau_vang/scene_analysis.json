@@ -1,0 +1,118 @@
+{
+  "objects": [
+    {
+      "id": "A",
+      "name": "Athletic man",
+      "outfit": "Dark green t-shirt, dark gray shorts",
+      "position": {
+        "absolute": "Left foreground",
+        "relative_to": []
+      }
+    },
+    {
+      "id": "B",
+      "name": "Young woman",
+      "outfit": "Yellow v-neck flowy dress",
+      "position": {
+        "absolute": "Middle-left",
+        "relative_to": [
+          {
+            "object_id": "A",
+            "relation": "slightly_right_of"
+          },
+          {
+            "object_id": "A",
+            "relation": "slightly_behind"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C",
+      "name": "Young boy",
+      "outfit": "Orange graphic t-shirt, blue jeans",
+      "position": {
+        "absolute": "Bottom-center",
+        "relative_to": [
+          {
+            "object_id": "B",
+            "relation": "slightly_right_of"
+          }
+        ]
+      }
+    },
+    {
+      "id": "D",
+      "name": "Middle-aged professional woman",
+      "outfit": "Deep cobalt blue tailored blazer, dark blue top, dark trousers",
+      "position": {
+        "absolute": "Middle-right background",
+        "relative_to": [
+          {
+            "object_id": "B",
+            "relation": "behind"
+          },
+          {
+            "object_id": "C",
+            "relation": "behind"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E",
+      "name": "Elderly woman",
+      "outfit": "Soft lavender knitted cardigan, dark patterned blouse, dark slacks, watch",
+      "position": {
+        "absolute": "Far-right background",
+        "relative_to": [
+          {
+            "object_id": "D",
+            "relation": "right_of"
+          },
+          {
+            "object_id": "C",
+            "relation": "behind"
+          }
+        ]
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "id_1": "A",
+      "id_2": "B",
+      "relationship": "holding_hands"
+    },
+    {
+      "id_1": "A",
+      "id_2": "B",
+      "relationship": "looking_at"
+    },
+    {
+      "id_1": "B",
+      "id_2": "C",
+      "relationship": "holding_hands"
+    },
+    {
+      "id_1": "C",
+      "id_2": "B",
+      "relationship": "looking_at"
+    },
+    {
+      "id_1": "D",
+      "id_2": "E",
+      "relationship": "standing_next_to"
+    },
+    {
+      "id_1": "D",
+      "id_2": "A",
+      "relationship": "looking_at"
+    },
+    {
+      "id_1": "E",
+      "id_2": "A",
+      "relationship": "looking_at"
+    }
+  ]
+}

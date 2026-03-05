@@ -1,0 +1,48 @@
+{
+    "original_prompt": "Seamlessly integrated into the provided background scene, anchoring the lower-left foreground is Winston Churchill, a young woman, dressed in a Harry Potter Gryffindor cosplay robe, holding a Spalding NBA basketball. Positioned to her right and aligned horizontally with her, occupying the lower-right foreground, is Aristotle, a man, wearing a Champion hoodie. Above them both, situated prominently in the upper-center of the frame, is Demis Hassabis, a young boy, in a bright yellow t-shirt and blue shorts, standing beside a Honda SH motorcycle, with the woman and man positioned below him as if supporting him. The composition should feature photorealistic subjects, sharp focus on characters, and a clear sense of depth.",
+    "generalized_prompt": "Seamlessly integrated into the provided background scene, anchoring the lower-left foreground is Man A wearing red top and red pants, a young woman, dressed in a blue robe, holding a green basketball. Positioned to her right and aligned horizontally with her, occupying the lower-right foreground, is Man B wearing a yellow T-shirt, a man, wearing a purple hoodie. Above them both, situated prominently in the upper-center of the frame, is Boy A wearing an orange top and orange pants, standing beside a pink motorcycle, with the woman and man positioned below him as if supporting him. The composition should feature photorealistic subjects, sharp focus on characters, and a clear sense of depth.",
+    "entities": [
+        {
+            "entity": "Winston Churchill",
+            "replacement_name": "Man A",
+            "description": "Winston Churchill, a young man, is anchored in the lower-left foreground of the scene, dressed in a realistic portrayal of Winston Churchill's attire.",
+            "type": "human"
+        },
+        {
+            "entity": "Harry Potter Gryffindor robe",
+            "replacement_name": "robe",
+            "description": "A young woman is dressed in a Harry Potter Gryffindor cosplay robe, holding a Spalding NBA basketball.",
+            "type": "object"
+        },
+        {
+            "entity": "Spalding NBA basketball",
+            "replacement_name": "basketball",
+            "description": "",
+            "type": "object"
+        },
+        {
+            "entity": "Aristotle",
+            "replacement_name": "Man B",
+            "description": "Aristotle, a man, is positioned to the right of the woman, wearing a Champion hoodie.",
+            "type": "human"
+        },
+        {
+            "entity": "Champion hoodie",
+            "replacement_name": "hoodie",
+            "description": "",
+            "type": "object"
+        },
+        {
+            "entity": "Demis Hassabis",
+            "replacement_name": "Boy A",
+            "description": "Demis Hassabis, a young boy, is depicted in a bright yellow t-shirt and blue shorts, standing beside a Honda SH motorcycle.",
+            "type": "human"
+        },
+        {
+            "entity": "Honda SH motorcycle",
+            "replacement_name": "motorcycle",
+            "description": "A Honda SH motorcycle is positioned next to Demis Hassabis, who is standing beside it.",
+            "type": "object"
+        }
+    ]
+}

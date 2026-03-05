@@ -1,0 +1,80 @@
+{
+  "location": "lang_bac",
+  "entry_id": "20251122_044149",
+  "original_prompt": "Seamlessly integrated into the provided background scene, the environment is presented exactly as depicted, maintaining its original composition and visual elements, resulting in a photorealistic depiction with sharp focus and vibrant colors. Estée Lauder, a middle-aged woman, Larry Ellison, a middle-aged man, and Alexander the Great, a young man, are sitting around a small, round wooden table, engaged in a lively discussion. Estée Lauder is on the left, gesturing animatedly with her right hand, her túi xách Dior Saddle bag resting on the table beside her. Larry Ellison is across from her, leaning forward slightly, listening intently, with an open laptop MacBook Pro in front of him. Alexander the Great is to the right of Estée Lauder, smiling and occasionally interjecting, with a máy ép chậm Kuvings placed on the table next to him. The table has three empty coffee cups and a small vase with a single white rose.",
+  "generalized_prompt": "Seamlessly integrated into the provided background scene, the environment is presented exactly as depicted, maintaining its original composition and visual elements, resulting in a photorealistic depiction with sharp focus and vibrant colors. Woman A wearing red top and red pants, Man A wearing blue top and blue pants, and Young Man A wearing green T-shirt are sitting around a small, round wooden table, engaged in a lively discussion. Woman A is on the left, gesturing animatedly with her right hand, her yellow handbag resting on the table beside her. Man A is across from her, leaning forward slightly, listening intently, with an open purple laptop in front of him. Young Man A is to the right of Woman A, smiling and occasionally interjecting, with an orange slow cooker placed on the table next to him. The table has three pink cup and a small vase with a single cyan flower.",
+  "entities": [
+    {
+      "entity": "Estée Lauder",
+      "type": "human",
+      "description": "Estée Lauder is a middle-aged woman sitting around a small, round wooden table with Larry Ellison and Alexander the Great, gesturing animatedly with her right hand and her Dior Saddle bag resting on the table beside her.",
+      "replacement_name": "Woman A",
+      "image_file": "Estée_Lauder.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "Larry Ellison",
+      "type": "human",
+      "description": "Larry Ellison is a middle-aged man sitting around the table with Estée Lauder and Alexander the Great, leaning forward slightly and listening intently with an open laptop MacBook Pro in front of him.",
+      "replacement_name": "Man A",
+      "image_file": "Larry_Ellison.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "Alexander the Great",
+      "type": "human",
+      "description": "Alexander the Great is a young man sitting around the table with Estée Lauder and Larry Ellison, smiling and occasionally interjecting, with a Kuvings machine placed on the table next to him.",
+      "replacement_name": "Young Man A",
+      "image_file": "Alexander_the_Great.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "Dior Saddle",
+      "type": "object",
+      "description": "A Dior Saddle bag is resting on the table beside Estée Lauder.",
+      "replacement_name": "handbag",
+      "image_file": "Dior_Saddle.jpg",
+      "retrieved_entity": "Dior Saddle Bag Blue Oblique Canvas",
+      "folder_name": "túi_xách_dior_saddle_bag_blue_oblique_canvas"
+    },
+    {
+      "entity": "MacBook Pro",
+      "type": "object",
+      "description": "A MacBook Pro laptop is open in front of Larry Ellison.",
+      "replacement_name": "laptop",
+      "image_file": "MacBook_Pro.jpg",
+      "retrieved_entity": "MacBook Pro M3 Laptop",
+      "folder_name": "laptop_macbook_pro_m3"
+    },
+    {
+      "entity": "Kuvings",
+      "type": "object",
+      "description": "A Kuvings machine is placed on the table next to Alexander the Great.",
+      "replacement_name": "slow cooker",
+      "image_file": "Kuvings.jpg",
+      "retrieved_entity": "Kuvings Evo820 Slow Juicer",
+      "folder_name": "máy_ép_chậm_kuvings_evo820"
+    },
+    {
+      "entity": "coffee cups",
+      "type": "object",
+      "description": "There are three empty coffee cups on the table.",
+      "replacement_name": "cup",
+      "image_file": "coffee_cups.jpg",
+      "retrieved_entity": "Starbucks Barista Uniform Green Apron",
+      "folder_name": "đồng_phục_starbucks_barista_tạp_dề_xanh"
+    },
+    {
+      "entity": "white rose",
+      "type": "object",
+      "description": "A single white rose is placed in a small vase on the table.",
+      "replacement_name": "flower",
+      "image_file": "white_rose.webp",
+      "retrieved_entity": "Maison Margiela Replica By The Fireplace EDT Perfume 100ml",
+      "folder_name": "nước_hoa_maison_margiela_replica_by_the_fireplace_edt_100ml"
+    }
+  ]
+}

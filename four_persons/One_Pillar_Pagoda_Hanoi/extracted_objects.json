@@ -1,0 +1,54 @@
+{
+    "original_prompt": "Seamlessly integrated into the provided background scene, positioned in the foreground left is Sam Altman, a young woman, wearing a Harry Potter Gryffindor robe over her magenta t-shirt and blue jeans, looking towards the man beside her. Anchored in the middle-left, behind and slightly right of the young woman, stands Alfred Hitchcock, a man with a beard, dressed in a forest green plaid shirt and blue jeans, holding a Luxur golden lion handle umbrella. To his right, situated in the middle-right, Marc Andreessen, an older woman, in a royal blue cardigan, black pants, and a gold watch, holding a bottle of Chanel Coco Mademoiselle, is actively shaking hands with the man, both looking intently at each other. Further back, prominently placed in the background center, behind and slightly right of the man with the beard and simultaneously behind and slightly left of the older woman, is Meryl Streep, a young man, wearing an áo khoác The North Face Nuptse jacket over his sunny yellow t-shirt and blue jeans. All subjects are rendered with photorealistic detail, sharp focus on characters, and natural lighting.",
+    "generalized_prompt": "Seamlessly integrated into the provided background scene, positioned in the foreground left is Man A wearing red top and red pants, looking towards the man beside him. Anchored in the middle-left, behind and slightly right of Man A, stands Man B wearing green top and green pants, holding an orange umbrella. To his right, situated in the middle-right, Man C wearing yellow top and yellow pants, holding a pink perfume bottle, is actively shaking hands with the man, both looking intently at each other. Further back, prominently placed in the background center, behind and slightly right of Man B and simultaneously behind and slightly left of Man C, is Woman A wearing purple top and purple pants. All subjects are rendered with photorealistic detail, sharp focus on characters, and natural lighting.",
+    "entities": [
+        {
+            "entity": "Sam Altman",
+            "replacement_name": "Man A",
+            "description": "",
+            "type": "human"
+        },
+        {
+            "entity": "Harry Potter Gryffindor robe",
+            "replacement_name": "robe",
+            "description": "",
+            "type": "object"
+        },
+        {
+            "entity": "Alfred Hitchcock",
+            "replacement_name": "Man B",
+            "description": "",
+            "type": "human"
+        },
+        {
+            "entity": "Marc Andreessen",
+            "replacement_name": "Man C",
+            "description": "",
+            "type": "human"
+        },
+        {
+            "entity": "Meryl Streep",
+            "replacement_name": "Woman A",
+            "description": "",
+            "type": "human"
+        },
+        {
+            "entity": "Luxur golden lion handle umbrella",
+            "replacement_name": "umbrella",
+            "description": "",
+            "type": "object"
+        },
+        {
+            "entity": "Chanel Coco Mademoiselle",
+            "replacement_name": "perfume bottle",
+            "description": "",
+            "type": "object"
+        },
+        {
+            "entity": "The North Face Nuptse jacket",
+            "replacement_name": "jacket",
+            "description": "",
+            "type": "object"
+        }
+    ]
+}

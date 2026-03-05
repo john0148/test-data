@@ -1,0 +1,523 @@
+[
+  {
+    "location": "One_Pillar_Pagoda_Hanoi",
+    "entry_id": "20251120_110751",
+    "original_prompt": "Seamlessly integrated into the provided background scene, positioned in the middle-left of the frame is Benjamin Franklin, an elderly man, wearing a green short-sleeved collared shirt and holding a bộ ấm trà gốm Minh Long Jasmine. To his immediate right, occupying the middle-center, is Tom Hanks, a young woman, dressed in a áo sweater Pokemon Pikachu and a silver necklace with a dark pendant, with Benjamin Franklin hugging and touching her while leaning towards her. Further to her right, anchored in the middle-right of the frame, stands Walt Disney, a teenage boy, wearing a royal blue hoodie, with Tom Hanks hugging him as he leans towards her. This group forms a cohesive mid-ground composition, captured with photorealistic subjects and a sharp focus on the characters.",
+    "generalized_prompt": "Seamlessly integrated into the provided background scene, positioned in the middle-left of the frame is Man A wearing red top and red pants, holding a yellow tea set. To his immediate right, occupying the middle-center, is Woman A wearing blue top and blue pants, dressed in a purple sweater and a silver necklace with a dark pendant, with Man A hugging and touching her while leaning towards her. Further to her right, anchored in the middle-right of the frame, stands Teenage Boy A wearing green top and green pants, with Woman A hugging him as he leans towards her. This group forms a cohesive mid-ground composition, captured with photorealistic subjects and a sharp focus on the characters.",
+    "entities": [
+      {
+        "entity": "Benjamin Franklin",
+        "type": "human",
+        "description": "An elderly Benjamin Franklin, positioned in the middle-left of the frame, wearing a green short-sleeved collared shirt and holding a bộ ấm trà gốm Minh Long Jasmine.",
+        "replacement_name": "Man A",
+        "image_file": "Benjamin_Franklin.jpg",
+        "retrieved_entity": null,
+        "folder_name": null
+      },
+      {
+        "entity": "Tom Hanks",
+        "type": "human",
+        "description": "A young woman Tom Hanks, positioned in the middle-center of the frame, dressed in an áo sweater Pokemon Pikachu and a silver necklace with a dark pendant.",
+        "replacement_name": "Woman A",
+        "image_file": "Tom_Hanks.jpg",
+        "retrieved_entity": null,
+        "folder_name": null
+      },
+      {
+        "entity": "Walt Disney",
+        "type": "human",
+        "description": "A teenage Walt Disney, positioned in the middle-right of the frame, wearing a royal blue hoodie.",
+        "replacement_name": "Teenage Boy A",
+        "image_file": "Walt_Disney.jpg",
+        "retrieved_entity": null,
+        "folder_name": null
+      },
+      {
+        "entity": "bộ ấm trà gốm Minh Long Jasmine",
+        "type": "object",
+        "description": "A green short-sleeved collared shirt worn by Benjamin Franklin.",
+        "replacement_name": "tea set",
+        "image_file": "bộ_ấm_trà_gốm_Minh_Long_Jasmine.jpg",
+        "retrieved_entity": "Vietnamese Traditional White School Ao Dai",
+        "folder_name": "áo_dài_trắng_học_sinh"
+      },
+      {
+        "entity": "áo sweater Pokemon Pikachu",
+        "type": "object",
+        "description": "An áo sweater Pokemon Pikachu worn by Tom Hanks.",
+        "replacement_name": "sweater",
+        "image_file": "áo_sweater_Pokemon_Pikachu.jpg",
+        "retrieved_entity": "Official Pokemon Pikachu Sweater",
+        "folder_name": "áo_sweater_pokemon_pikachu_official"
+      },
+      {
+        "entity": "royal blue hoodie",
+        "type": "object",
+        "description": "A royal blue hoodie worn by Walt Disney.",
+        "replacement_name": "hoodie",
+        "image_file": "royal_blue_hoodie.jpg",
+        "retrieved_entity": "Champion Reverse Weave Hoodie",
+        "folder_name": "áo_hoodie_champion_reverse_weave"
+      }
+    ]
+  },
+  {
+    "location": "Son_Tay_ancient_citadel",
+    "entry_id": "20251122_010929",
+    "original_prompt": "Seamlessly integrated into the provided background scene, occupying the lower-left foreground is Pelé, a Man, dressed in a Green long-sleeved button-up shirt, holding a Fitus mascot. Positioned in the upper-right, slightly above and to the right of Pelé, is Frida Kahlo, a Woman, wearing a Bright pink crop top and blue denim shorts, holding an iPhone; her head touches Pelé's. Anchored in the lower-right foreground, slightly right of Pelé and lower-right of Frida Kahlo, is Gregor Mendel, a Child, wearing a white student Ao Dai; Gregor Mendel's head also touches both Pelé's and Frida Kahlo's, and Gregor Mendel is looking at Pelé. photorealistic subjects, sharp focus on characters.",
+    "generalized_prompt": "Seamlessly integrated into the provided background scene, occupying the lower-left foreground is Man A, wearing a red top and red pants, holding a Fitus mascot. Positioned in the upper-right, slightly above and to the right of Man A, is Woman A, wearing a blue top and blue pants, holding an iPhone; her head touches Man A's. Anchored in the lower-right foreground, slightly right of Man A and lower-right of Woman A, is Child A, wearing a green top and green pants; Child A's head also touches both Man A's and Woman A's, and Child A is looking at Man A. photorealistic subjects, sharp focus on characters.",
+    "entities": [
+      {
+        "entity": "Pelé",
+        "type": "human",
+        "description": "Pelé, a Man, is seamlessly integrated into the background scene, dressed in a Green long-sleeved button-up shirt and holding a Fitus mascot, positioned in the lower-left foreground.",
+        "replacement_name": "Man A",
+        "image_file": "Pelé.jpg",
+        "retrieved_entity": null,
+        "folder_name": null
+      },
+      {
+        "entity": "Frida Kahlo",
+        "type": "human",
+        "description": "Frida Kahlo, a Woman, is positioned in the upper-right, slightly above and to the right of Pelé, wearing a Bright pink crop top and blue denim shorts, holding an iPhone; her head touches Pelé's.",
+        "replacement_name": "Woman A",
+        "image_file": "Frida_Kahlo.jpg",
+        "retrieved_entity": null,
+        "folder_name": null
+      },
+      {
+        "entity": "Gregor Mendel",
+        "type": "human",
+        "description": "Gregor Mendel, a Child, is anchored in the lower-right foreground, slightly right of Pelé and lower-right of Frida Kahlo, wearing a white student Ao Dai; his head also touches both Pelé's and Frida Kahlo's, and he is looking at Pelé.",
+        "replacement_name": "Child A",
+        "image_file": "Gregor_Mendel.jpg",
+        "retrieved_entity": null,
+        "folder_name": null
+      }
+    ]
+  },
+  {
+    "location": "hoang-thanh-thang-long",
+    "entry_id": "20251122_015830",
+    "original_prompt": "Seamlessly integrated into the provided background scene, The Beatles, an elderly woman, dressed in an áo polo Tommy Hilfiger and grey linen pants, holding a bottle of nước hoa Dior Sauvage, is positioned prominently in the upper-center mid-ground of the frame. Directly below her, occupying the lower-center foreground and resting comfortably in her lap, is Mark Zuckerberg, a young girl wearing an áo polo Adidas and blue leggings with a white floral pattern, as The Beatles gently strokes her hair and embraces her in a warm hug, creating a tender interaction between them; photorealistic subjects, sharp focus on characters.",
+    "generalized_prompt": "Seamlessly integrated into the provided background scene, Group A wearing red T-shirt, an elderly woman dressed in a blue shirt and grey linen pants, holding a bottle of purple perfume, is positioned prominently in the upper-center mid-ground of the frame. Directly below her, occupying the lower-center foreground and resting comfortably in her lap, is Man A wearing orange T-shirt, a young girl wearing a yellow top and yellow pants, as Group A gently strokes her hair and embraces her in a warm hug, creating a tender interaction between them; photorealistic subjects, sharp focus on characters.",
+    "entities": [
+      {
+        "entity": "The Beatles",
+        "type": "human",
+        "description": "The Beatles, an elderly woman, is positioned prominently in the upper-center mid-ground of the frame, with The Beatles gently stroking her hair and embracing her in a warm hug, creating a tender interaction.",
+        "replacement_name": "Group A",
+        "image_file": "The_Beatles.jpg",
+        "retrieved_entity": null,
+        "folder_name": null
+      },
+      {
+        "entity": "áo polo Tommy Hilfiger",
+        "type": "object",
+        "description": "An elderly woman is dressed in an áo polo Tommy Hilfiger.",
+        "replacement_name": "shirt",
+        "image_file": "áo_polo_Tommy_Hilfiger.jpg",
+        "retrieved_entity": "Tommy Hilfiger Signature Polo Shirt",
+        "folder_name": "áo_polo_tommy_hilfiger_signature_polo"
+      },
+      {
+        "entity": "áo polo Adidas",
+        "type": "object",
+        "description": "A young girl is wearing an áo polo Adidas.",
+        "replacement_name": "shirt",
+        "image_file": "áo_polo_Adidas.jpg",
+        "retrieved_entity": "Adidas Performance Polo Shirt",
+        "folder_name": "áo_polo_adidas_performance_polo"
+      },
+      {
+        "entity": "young girl",
+        "type": "human",
+        "description": "A young girl wearing an áo polo Adidas and blue leggings with a white floral pattern, directly below the elderly woman in the lower-center foreground.",
+        "replacement_name": "Girl A",
+        "image_file": null,
+        "retrieved_entity": null,
+        "folder_name": null
+      },
+      {
+        "entity": "nước hoa Dior Sauvage",
+        "type": "object",
+        "description": "An elderly woman is holding a bottle of nước hoa Dior Sauvage.",
+        "replacement_name": "perfume",
+        "image_file": "nước_hoa_Dior_Sauvage.jpg",
+        "retrieved_entity": "Dior Sauvage 100ml",
+        "folder_name": "dior_sauvage_100ml"
+      },
+      {
+        "entity": "Mark Zuckerberg",
+        "type": "human",
+        "description": "Mark Zuckerberg, a young girl wearing an áo polo Adidas and blue leggings with a white floral pattern, is directly below the elderly woman in the lower-center foreground.",
+        "replacement_name": "Man A",
+        "image_file": "Mark_Zuckerberg.jpg",
+        "retrieved_entity": null,
+        "folder_name": null
+      },
+      {
+        "entity": "blue leggings",
+        "type": "object",
+        "description": "A young girl is wearing blue leggings with a white floral pattern.",
+        "replacement_name": "leggings",
+        "image_file": "blue_leggings.webp",
+        "retrieved_entity": "HCMUS Uniform Blue And White PE Shirt",
+        "folder_name": "đồng_phục_hcmus_áo_thể_dục_màu_trắng_xanh"
+      }
+    ]
+  },
+  {
+    "location": "hoang-thanh-thang-long",
+    "entry_id": "20251120_104642",
+    "original_prompt": "Seamlessly integrated into the provided background scene, occupying the upper-left of the frame, Audrey Hepburn, an elderly man, is depicted wearing a blue polo shirt with white trim, blue jeans, and clear-rimmed glasses. Standing immediately to his right, in the middle-right of the frame, is Simon Bolivar, a middle-aged woman, adorned in a red button-down linen dress, small pearl earrings, and a dark bracelet, holding a Dior Sauvage perfume bottle; they are standing next to each other. Anchored in the bottom-center foreground, positioned below the elderly man and below and slightly in front of the middle-aged woman, is Ada Lovelace, a small boy, wearing a yellow t-shirt with a red emblem, proudly holding a Gundam model kit. Both the elderly man and the middle-aged woman are looking at the small boy, with the woman also sitting near him. Photorealistic subjects, sharp focus on characters, natural lighting.",
+    "generalized_prompt": "Seamlessly integrated into the provided background scene, occupying the upper-left of the frame, Woman A wearing red top and red pants is depicted wearing a blue polo shirt with white trim, red top and red pants. Standing immediately to her right, in the middle-right of the frame, is Man A wearing blue top and blue pants, adorned in a red button-down linen dress, small pearl earrings, and a dark bracelet, holding a yellow perfume bottle; they are standing next to each other. Anchored in the bottom-center foreground, positioned below Man A and below and slightly in front of Man A, is Boy A wearing green top and green pants, proudly holding a purple model kit. Both Man A and Man B are looking at Boy A, with Man B also sitting near him. Photorealistic subjects, sharp focus on characters, natural lighting.",
+    "entities": [
+      {
+        "entity": "Audrey Hepburn",
+        "type": "human",
+        "description": "Audrey Hepburn, an elderly woman, is depicted wearing a blue polo shirt with white trim, blue jeans, and clear-rimmed glasses, positioned in the upper-left corner of the frame.",
+        "replacement_name": "Woman A",
+        "image_file": "Audrey_Hepburn.jpg",
+        "retrieved_entity": null,
+        "folder_name": null
+      },
+      {
+        "entity": "Simon Bolivar",
+        "type": "human",
+        "description": "Simon Bolivar, a middle-aged woman, is shown wearing a red button-down linen dress, small pearl earrings, and a dark bracelet, holding a Dior Sauvage perfume bottle, standing in the middle-right of the frame next to Ada Lovelace.",
+        "replacement_name": "Man A",
+        "image_file": "Simon_Bolivar.jpg",
+        "retrieved_entity": null,
+        "folder_name": null
+      },
+      {
+        "entity": "Ada Lovelace",
+        "type": "human",
+        "description": "Ada Lovelace, a small boy, is wearing a yellow t-shirt with a red emblem, holding a Gundam model kit, positioned in the bottom-center foreground below the elderly man and the middle-aged woman.",
+        "replacement_name": "Boy A",
+        "image_file": "Ada_Lovelace.jpg",
+        "retrieved_entity": null,
+        "folder_name": null
+      },
+      {
+        "entity": "Dior Sauvage",
+        "type": "object",
+        "description": "A Dior Sauvage perfume bottle is held by Simon Bolivar, who is standing next to Ada Lovelace in the middle-right of the frame.",
+        "replacement_name": "perfume bottle",
+        "image_file": "Dior_Sauvage.jpg",
+        "retrieved_entity": "Dior Sauvage 100ml",
+        "folder_name": "dior_sauvage_100ml"
+      },
+      {
+        "entity": "Gundam",
+        "type": "object",
+        "description": "A Gundam model kit is being held by Ada Lovelace, who is positioned in the bottom-center foreground below the elderly man and the middle-aged woman.",
+        "replacement_name": "model kit",
+        "image_file": "Gundam.jpg",
+        "retrieved_entity": "Gundam MGEX Model Kit",
+        "folder_name": "bộ_mô_hình_gundam_mgex"
+      }
+    ]
+  },
+  {
+    "location": "nha-hat-lon-ha-noi",
+    "entry_id": "20251122_034617",
+    "original_prompt": "Seamlessly integrated into the provided background scene, positioned prominently in the middle-center foreground is Stephen Hawking, a man, wearing a red t-shirt and dark pants, and a Starbucks barista uniform apron. Above him, Margaret Hamilton, a young girl, in a yellow sundress and white and grey sneakers is perched on his shoulders, occupying the top-center of the frame. To the man's immediate left, anchored in the lower-left foreground, is Sergey Brin, a woman, wearing a blue denim button-up shirt, holding a Fujifilm X-T5 camera, who is hugging the man, touching him, and looking at him. Conversely, to the man's right, positioned in the lower-right foreground, stands another woman also in a blue denim button-up shirt, equally hugging the man, touching him, and looking at him, with both women standing next to each other. photorealistic subjects, sharp focus on characters, outdoor lighting, highly detailed.",
+    "generalized_prompt": "Seamlessly integrated into the provided background scene, positioned prominently in the middle-center foreground is Man A wearing a red top and red pants, surrounded by Girl A, a young girl, in a blue top and blue pants, perched on his shoulders, occupying the top-center of the frame. To the man's immediate left, anchored in the lower-left foreground, is Woman A, a woman, wearing a green top and green pants, holding a yellow camera, who is hugging the man, touching him, and looking at him. Conversely, to the man's right, positioned in the lower-right foreground, stands another woman also in a green top and green pants, hugging the man, touching him, and looking at him, with both women standing next to each other. photorealistic subjects, sharp focus on characters, outdoor lighting, highly detailed.",
+    "entities": [
+      {
+        "entity": "Stephen Hawking",
+        "type": "human",
+        "description": "Stephen Hawking, a man, is prominently positioned in the middle-center foreground of the photorealistic scene, wearing a red t-shirt and dark pants, and additionally adorned with a Starbucks barista uniform apron.",
+        "replacement_name": "Man A",
+        "image_file": "Stephen_Hawking.jpg",
+        "retrieved_entity": null,
+        "folder_name": null
+      },
+      {
+        "entity": "Margaret Hamilton",
+        "type": "human",
+        "description": "Margaret Hamilton, a young girl, is perched on Stephen Hawking's shoulders in the top-center of the frame, dressed in a yellow sundress and white and grey sneakers.",
+        "replacement_name": "Girl A",
+        "image_file": "Margaret_Hamilton.jpg",
+        "retrieved_entity": null,
+        "folder_name": null
+      },
+      {
+        "entity": "Sergey Brin",
+        "type": "human",
+        "description": "Sergey Brin, a woman, is anchored in the lower-left foreground, hugging Stephen Hawking, touching him, and looking at him. She is wearing a blue denim button-up shirt and holding a Fujifilm X-T5 camera.",
+        "replacement_name": "Woman A",
+        "image_file": "Sergey_Brin.jpg",
+        "retrieved_entity": null,
+        "folder_name": null
+      },
+      {
+        "entity": "Fujifilm X-T5",
+        "type": "object",
+        "description": "A Fujifilm X-T5 camera is held by Sergey Brin, who is hugging and touching Stephen Hawking in the lower-left foreground of the photorealistic scene.",
+        "replacement_name": "camera",
+        "image_file": "Fujifilm_X-T5.jpg",
+        "retrieved_entity": "Fujifilm X-T5 Camera Lens Kit",
+        "folder_name": "máy_ảnh_fujifilm_x_t5_lens_kit"
+      }
+    ]
+  },
+  {
+    "location": "lang_bac",
+    "entry_id": "20251122_044149",
+    "original_prompt": "Seamlessly integrated into the provided background scene, the environment is presented exactly as depicted, maintaining its original composition and visual elements, resulting in a photorealistic depiction with sharp focus and vibrant colors. Estée Lauder, a middle-aged woman, Larry Ellison, a middle-aged man, and Alexander the Great, a young man, are sitting around a small, round wooden table, engaged in a lively discussion. Estée Lauder is on the left, gesturing animatedly with her right hand, her túi xách Dior Saddle bag resting on the table beside her. Larry Ellison is across from her, leaning forward slightly, listening intently, with an open laptop MacBook Pro in front of him. Alexander the Great is to the right of Estée Lauder, smiling and occasionally interjecting, with a máy ép chậm Kuvings placed on the table next to him. The table has three empty coffee cups and a small vase with a single white rose.",
+    "generalized_prompt": "Seamlessly integrated into the provided background scene, the environment is presented exactly as depicted, maintaining its original composition and visual elements, resulting in a photorealistic depiction with sharp focus and vibrant colors. Woman A wearing red top and red pants, Man A wearing blue top and blue pants, and Young Man A wearing green T-shirt are sitting around a small, round wooden table, engaged in a lively discussion. Woman A is on the left, gesturing animatedly with her right hand, her yellow handbag resting on the table beside her. Man A is across from her, leaning forward slightly, listening intently, with an open purple laptop in front of him. Young Man A is to the right of Woman A, smiling and occasionally interjecting, with an orange slow cooker placed on the table next to him. The table has three pink cup and a small vase with a single cyan flower.",
+    "entities": [
+      {
+        "entity": "Estée Lauder",
+        "type": "human",
+        "description": "Estée Lauder is a middle-aged woman sitting around a small, round wooden table with Larry Ellison and Alexander the Great, gesturing animatedly with her right hand and her Dior Saddle bag resting on the table beside her.",
+        "replacement_name": "Woman A",
+        "image_file": "Estée_Lauder.jpg",
+        "retrieved_entity": null,
+        "folder_name": null
+      },
+      {
+        "entity": "Larry Ellison",
+        "type": "human",
+        "description": "Larry Ellison is a middle-aged man sitting around the table with Estée Lauder and Alexander the Great, leaning forward slightly and listening intently with an open laptop MacBook Pro in front of him.",
+        "replacement_name": "Man A",
+        "image_file": "Larry_Ellison.jpg",
+        "retrieved_entity": null,
+        "folder_name": null
+      },
+      {
+        "entity": "Alexander the Great",
+        "type": "human",
+        "description": "Alexander the Great is a young man sitting around the table with Estée Lauder and Larry Ellison, smiling and occasionally interjecting, with a Kuvings machine placed on the table next to him.",
+        "replacement_name": "Young Man A",
+        "image_file": "Alexander_the_Great.jpg",
+        "retrieved_entity": null,
+        "folder_name": null
+      },
+      {
+        "entity": "Dior Saddle",
+        "type": "object",
+        "description": "A Dior Saddle bag is resting on the table beside Estée Lauder.",
+        "replacement_name": "handbag",
+        "image_file": "Dior_Saddle.jpg",
+        "retrieved_entity": "Dior Saddle Bag Blue Oblique Canvas",
+        "folder_name": "túi_xách_dior_saddle_bag_blue_oblique_canvas"
+      },
+      {
+        "entity": "MacBook Pro",
+        "type": "object",
+        "description": "A MacBook Pro laptop is open in front of Larry Ellison.",
+        "replacement_name": "laptop",
+        "image_file": "MacBook_Pro.jpg",
+        "retrieved_entity": "MacBook Pro M3 Laptop",
+        "folder_name": "laptop_macbook_pro_m3"
+      },
+      {
+        "entity": "Kuvings",
+        "type": "object",
+        "description": "A Kuvings machine is placed on the table next to Alexander the Great.",
+        "replacement_name": "slow cooker",
+        "image_file": "Kuvings.jpg",
+        "retrieved_entity": "Kuvings Evo820 Slow Juicer",
+        "folder_name": "máy_ép_chậm_kuvings_evo820"
+      },
+      {
+        "entity": "coffee cups",
+        "type": "object",
+        "description": "There are three empty coffee cups on the table.",
+        "replacement_name": "cup",
+        "image_file": "coffee_cups.jpg",
+        "retrieved_entity": "Starbucks Barista Uniform Green Apron",
+        "folder_name": "đồng_phục_starbucks_barista_tạp_dề_xanh"
+      },
+      {
+        "entity": "white rose",
+        "type": "object",
+        "description": "A single white rose is placed in a small vase on the table.",
+        "replacement_name": "flower",
+        "image_file": "white_rose.webp",
+        "retrieved_entity": "Maison Margiela Replica By The Fireplace EDT Perfume 100ml",
+        "folder_name": "nước_hoa_maison_margiela_replica_by_the_fireplace_edt_100ml"
+      }
+    ]
+  },
+  {
+    "location": "One_Pillar_Pagoda_Hanoi",
+    "entry_id": "20251120_110955",
+    "original_prompt": "Seamlessly integrated into the provided background scene, Ilya Sutskever, a young boy dressed in an orange t-shirt, holding a Funko Pop Pikachu, occupies the foreground. Positioned in the middle-center, directly behind the boy, is Gregor Mendel, a middle-aged woman wearing a deep violet blouse, a delicate necklace, and a silver ring on her left hand. Further in the background, towards the middle-right, Robert Oppenheimer, an elderly man wearing an áo hoodie Champion, stands behind and slightly to the right of the woman, attentively looking at her; photorealistic subjects, sharp focus on characters, natural lighting.",
+    "generalized_prompt": "Seamlessly integrated into the provided background scene, Boy A wearing red top and red pants, holding a Funko Pop Pikachu, occupies the foreground. Positioned in the middle-center, directly behind the boy, is Woman A wearing blue top and blue pants. Further in the background, towards the middle-right, Man A wearing green top and green pants, stands behind and slightly to the right of Woman A, attentively looking at her; photorealistic subjects, sharp focus on characters, natural lighting.",
+    "entities": [
+      {
+        "entity": "Ilya Sutskever",
+        "type": "human",
+        "description": "Ilya Sutskever is the main subject in the foreground, a young boy dressed in an orange t-shirt.",
+        "replacement_name": "Boy A",
+        "image_file": "Ilya_Sutskever.jpg",
+        "retrieved_entity": null,
+        "folder_name": null
+      },
+      {
+        "entity": "Gregor Mendel",
+        "type": "human",
+        "description": "Gregor Mendel is positioned in the middle-center, a middle-aged woman wearing a deep violet blouse, a delicate necklace, and a silver ring on her left hand.",
+        "replacement_name": "Woman A",
+        "image_file": "Gregor_Mendel.jpg",
+        "retrieved_entity": null,
+        "folder_name": null
+      },
+      {
+        "entity": "Robert Oppenheimer",
+        "type": "human",
+        "description": "Robert Oppenheimer is further in the background, towards the middle-right, an elderly man wearing an áo hoodie Champion, standing behind and slightly to the right of the woman, looking at her attentively.",
+        "replacement_name": "Man A",
+        "image_file": "Robert_Oppenheimer.jpg",
+        "retrieved_entity": null,
+        "folder_name": null
+      }
+    ]
+  },
+  {
+    "location": "Lam_Vien_Square",
+    "entry_id": "20251122_040212",
+    "original_prompt": "Seamlessly integrated into the provided background scene, Lady Gaga, a young man wearing a Barcelona football jersey, is centrally positioned in the foreground, forming the core of a group hug. Anchored in the lower-left foreground and positioned immediately to the young man's left, Mark Twain, an elderly woman in a bright yellow loose-fitting blouse, is warmly hugging him. Simultaneously, occupying the lower-right foreground and positioned immediately to the young man's right, Werner Heisenberg, a middle-aged woman in a deep red lightweight jacket, is also hugging him while holding a Honda SH motorcycle, creating a unified and intimate cluster. photorealistic subjects, sharp focus on characters.",
+    "generalized_prompt": "Seamlessly integrated into the provided background scene, Woman A wearing red top and red pants, a young Man A wearing blue top and blue pants, is centrally positioned in the foreground, forming the core of a group hug. Anchored in the lower-left foreground and positioned immediately to the young Man A's left, Man A wearing blue top and blue pants, a middle-aged Woman B wearing green top and green pants, is warmly hugging him. Simultaneously, occupying the lower-right foreground and positioned immediately to the young Man A's right, Woman B wearing green top and green pants, is also hugging him while holding a purple motorcycle, creating a unified and intimate cluster. photorealistic subjects, sharp focus on characters.",
+    "entities": [
+      {
+        "entity": "Lady Gaga",
+        "type": "human",
+        "description": "Lady Gaga is centrally positioned in the foreground, forming the core of a group hug.",
+        "replacement_name": "Woman A",
+        "image_file": "Lady_Gaga.jpg",
+        "retrieved_entity": null,
+        "folder_name": null
+      },
+      {
+        "entity": "Mark Twain",
+        "type": "human",
+        "description": "An elderly woman in a bright yellow loose-fitting blouse is positioned immediately to the young man's left, hugging him.",
+        "replacement_name": "Man A",
+        "image_file": "Mark_Twain.jpg",
+        "retrieved_entity": null,
+        "folder_name": null
+      },
+      {
+        "entity": "Werner Heisenberg",
+        "type": "human",
+        "description": "A middle-aged woman in a deep red lightweight jacket is positioned immediately to the young man's right, hugging him while holding a Honda SH motorcycle.",
+        "replacement_name": "Woman B",
+        "image_file": "Werner_Heisenberg.jpg",
+        "retrieved_entity": null,
+        "folder_name": null
+      },
+      {
+        "entity": "Barcelona football jersey",
+        "type": "object",
+        "description": "The young man is wearing a Barcelona football jersey, which is part of the group hug scene.",
+        "replacement_name": "jersey",
+        "image_file": "Barcelona_football_jersey.jpg",
+        "retrieved_entity": "Barcelona Home Kit 2024/25 Football Shirt",
+        "folder_name": "áo_bóng_đá_barcelona_home_kit_202425"
+      },
+      {
+        "entity": "Honda SH motorcycle",
+        "type": "object",
+        "description": "Werner Heisenberg is holding a Honda SH motorcycle, which is part of the group hug scene.",
+        "replacement_name": "motorcycle",
+        "image_file": "Honda_SH_motorcycle.jpg",
+        "retrieved_entity": "Honda SH Scooter",
+        "folder_name": "xe_máy_honda_sh"
+      }
+    ]
+  },
+  {
+    "location": "da_nang_-_cau_vang_10-",
+    "entry_id": "20251121_222352",
+    "original_prompt": "Seamlessly integrated into the provided background scene, positioned in the middle-center of the frame is Estée Lauder, a woman, holding a túi xách Dior Saddle, dressed in a blue tank top and dark cargo pants. Immediately above her, occupying the top-center, is Steve Jobs, a young boy wearing a red hoodie and grey pants, whom she is holding. This young boy is positioned in the upper-left of Martin Luther King Jr., an older man. Nearby, slightly to the right and slightly behind Estée Lauder, anchoring the lower-right foreground, is Martin Luther King Jr., an older man, holding a gấu teddy Ikea Djungelskog, wearing a yellow button-up shirt and light grey jeans, who is also situated lower-right of Steve Jobs. Martin Luther King Jr. is touching Steve Jobs, and Estée Lauder is near Martin Luther King Jr. All three individuals are looking at each other. photorealistic subjects, sharp focus on characters.",
+    "generalized_prompt": "Seamlessly integrated into the provided background scene, positioned in the middle-center of the frame is Woman A wearing red top and red pants, holding a blue handbag, dressed in a blue tank top and dark cargo pants. Immediately above her, occupying the top-center, is Boy A wearing green top and green pants, whom she is holding. This young boy is positioned in the upper-left of Man A, an older man, wearing yellow top and yellow pants. Nearby, slightly to the right and slightly behind Woman A, anchoring the lower-right foreground, is Man A, an older man, holding a purple teddy bear, wearing a yellow button-up shirt and light grey jeans, who is also situated lower-right of Boy A. Man A is touching Boy A, and Woman A is near Man A. All three individuals are looking at each other. photorealistic subjects, sharp focus on characters.",
+    "entities": [
+      {
+        "entity": "Estée Lauder",
+        "type": "human",
+        "description": "Estée Lauder is a woman holding a túi xách Dior Saddle, dressed in a blue tank top and dark cargo pants, positioned in the middle-center of the frame.",
+        "replacement_name": "Woman A",
+        "image_file": "Estée_Lauder.jpg",
+        "retrieved_entity": null,
+        "folder_name": null
+      },
+      {
+        "entity": "túi xách Dior Saddle",
+        "type": "object",
+        "description": "A specific Dior Saddle handbag held by Estée Lauder, which is a particular named product.",
+        "replacement_name": "handbag",
+        "image_file": "túi_xách_Dior_Saddle.jpg",
+        "retrieved_entity": "Dior Saddle Bag Blue Oblique Canvas",
+        "folder_name": "túi_xách_dior_saddle_bag_blue_oblique_canvas"
+      },
+      {
+        "entity": "Steve Jobs",
+        "type": "human",
+        "description": "Steve Jobs is a young boy wearing a red hoodie and grey pants, positioned in the upper-left of Martin Luther King Jr., holding a specific person.",
+        "replacement_name": "Boy A",
+        "image_file": "Steve_Jobs.jpg",
+        "retrieved_entity": null,
+        "folder_name": null
+      },
+      {
+        "entity": "Martin Luther King Jr.",
+        "type": "human",
+        "description": "Martin Luther King Jr. is an older man, holding a gấu teddy Ikea Djungelskog, wearing a yellow button-up shirt and light grey jeans, positioned lower-right of Steve Jobs and looking at the other two individuals.",
+        "replacement_name": "Man A",
+        "image_file": "Martin_Luther_King_Jr.jpg",
+        "retrieved_entity": null,
+        "folder_name": null
+      },
+      {
+        "entity": "gấu teddy Ikea Djungelskog",
+        "type": "object",
+        "description": "A specific Teddy bear, Ikea Djungelskog, held by Martin Luther King Jr., which is a particular named product.",
+        "replacement_name": "teddy bear",
+        "image_file": "gấu_teddy_Ikea_Djungelskog.jpg",
+        "retrieved_entity": "Ikea Djungelskog Teddy Bear",
+        "folder_name": "gấu_teddy_ikea_djungelskog"
+      }
+    ]
+  },
+  {
+    "location": "Hai_Van_pass",
+    "entry_id": "20251122_040115",
+    "original_prompt": "Seamlessly integrated into the provided background scene, centrally positioned in the mid-ground is Greta Thunberg, a young man with dark hair, wearing a Naruto Akatsuki cloud hoodie. To his left, slightly behind him, Simon Bolivar, an older woman with silver curly hair in a deep crimson red knitted sweater, is holding a golden lion handle umbrella and is hugging and leaning towards the young man. Positioned to the young man's right, slightly in front of him, Sergey Brin, a child with light brown hair wearing a bright lemon yellow horizontally striped t-shirt is also hugging and leaning towards him. Photorealistic subjects, sharp focus on characters, warm lighting.",
+    "generalized_prompt": "Seamlessly integrated into the provided background scene, centrally positioned in the mid-ground is Girl A wearing red top and red pants. To her left, slightly behind her, Woman A wearing blue top and blue pants is holding a golden lion handle umbrella and is hugging and leaning towards Girl A. Positioned to Girl A's right, slightly in front of her, Child A wearing green top and green pants is also hugging and leaning towards her. Photorealistic subjects, sharp focus on characters, warm lighting.",
+    "entities": [
+      {
+        "entity": "Greta Thunberg",
+        "type": "human",
+        "description": "Greta Thunberg is the central figure, centrally positioned in the mid-ground of the provided background scene. She is a young woman with dark hair, wearing a Naruto Akatsuki cloud hoodie.",
+        "replacement_name": "Girl A",
+        "image_file": "Greta_Thunberg.jpg",
+        "retrieved_entity": null,
+        "folder_name": null
+      },
+      {
+        "entity": "Simon Bolivar",
+        "type": "human",
+        "description": "Simon Bolivar is positioned to the left of Greta Thunberg, slightly behind her. She is an older woman with silver curly hair, wearing a deep crimson red knitted sweater. She is holding a golden lion handle umbrella and is hugging and leaning towards Greta Thunberg.",
+        "replacement_name": "Woman A",
+        "image_file": "Simon_Bolivar.jpg",
+        "retrieved_entity": null,
+        "folder_name": null
+      },
+      {
+        "entity": "Sergey Brin",
+        "type": "human",
+        "description": "Sergey Brin is positioned to the right of Greta Thunberg, slightly in front of her. He is a child with light brown hair, wearing a bright lemon yellow horizontally striped t-shirt. He is hugging and leaning towards Greta Thunberg.",
+        "replacement_name": "Child A",
+        "image_file": "Sergey_Brin.jpg",
+        "retrieved_entity": null,
+        "folder_name": null
+      }
+    ]
+  }
+]

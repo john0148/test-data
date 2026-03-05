@@ -1,0 +1,27 @@
+[
+    {
+        "retrieved_entity": "Fender Stratocaster Guitar",
+        "similarity_score": 0.27829810976982117,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Chanel Bleu De Chanel Perfume 50ml",
+        "similarity_score": 0.25235795974731445,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Marvel Spider-Man Sweater",
+        "similarity_score": 0.24467454850673676,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Star Wars Darth Vader Black Hoodie",
+        "similarity_score": 0.2446230798959732,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Golden Oscar Statue",
+        "similarity_score": 0.21292483806610107,
+        "metadata": []
+    }
+]

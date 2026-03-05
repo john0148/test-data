@@ -1,0 +1,30 @@
+{
+    "original_prompt": "Seamlessly integrated into the provided background scene, occupying the foreground left is Taylor Swift, a young woman, holding a Lego Star Wars collection, adorned in a red hoodie, gold hoop earring, and braided hair, facing towards the mid-ground. Positioned in the middle-left background, behind her and slightly to her right, stands Yann LeCun, a muscular man with a beard, holding a Samsonite C-Lite suitcase, wearing a deep cobalt blue t-shirt, looking at the young woman. Adjacent to him and slightly behind and to his right, anchored in the middle-right background, is Lady Gaga, an elegant older woman with short blonde hair and a necklace, holding a bottle of Yves Saint Laurent Y perfume, dressed in a bright yellow linen dress, intently looking at the muscular man. Further back and slightly to her right, in the far-right background, Cristiano Ronaldo, a young boy, wearing a Nike Heritage 86 cap, an emerald green jacket, dark t-shirt, and dark pants stands next to the elegant older woman, looking between her and the muscular man. photorealistic subjects, sharp focus on characters, cinematic lighting.",
+    "generalized_prompt": "Seamlessly integrated into the provided background scene, occupying the foreground left is Woman A wearing red top and red pants, holding a Lego Star Wars collection, adorned in a red hoodie, gold hoop earring, and braided hair, facing towards the mid-ground. Positioned in the middle-left background, behind her and slightly to her right, stands Man A wearing blue top and blue pants, holding a Samsonite C-Lite suitcase, wearing a deep cobalt blue t-shirt, looking at Woman A. Adjacent to him and slightly behind and to his right, anchored in the middle-right background, is Elegant Older Woman A wearing green top and green pants, holding a bottle of Yves Saint Laurent Y perfume, dressed in a bright yellow linen dress, intently looking at Man A. Further back and slightly to her right, in the far-right background, Young Boy A wearing yellow top and yellow pants stands next to Elegant Older Woman A, looking between her and Man A. photorealistic subjects, sharp focus on characters, cinematic lighting.",
+    "entities": [
+        {
+            "entity": "Taylor Swift",
+            "replacement_name": "Woman A",
+            "description": "Taylor Swift, a young woman, is prominently featured in the foreground left of the scene, holding a Lego Star Wars collection, wearing a red hoodie, gold hoop earrings, and braided hair, facing towards the mid-ground.",
+            "type": "human"
+        },
+        {
+            "entity": "Yann LeCun",
+            "replacement_name": "Man A",
+            "description": "Yann LeCun, a muscular man with a beard, is positioned in the middle-left background, behind Taylor Swift and slightly to her right, holding a Samsonite C-Lite suitcase, wearing a deep cobalt blue t-shirt, and looking at Taylor Swift.",
+            "type": "human"
+        },
+        {
+            "entity": "Lady Gaga",
+            "replacement_name": "Elegant Older Woman A",
+            "description": "Lady Gaga, an elegant older woman with short blonde hair and a necklace, is anchored in the middle-right background, adjacent to Yann LeCun and slightly behind him, holding a bottle of Yves Saint Laurent Y perfume, dressed in a bright yellow linen dress, and looking at Yann LeCun and Taylor Swift.",
+            "type": "human"
+        },
+        {
+            "entity": "Cristiano Ronaldo",
+            "replacement_name": "Young Boy A",
+            "description": "Cristiano Ronaldo, a young boy, is further back and slightly to the right of Lady Gaga, standing next to her, wearing a Nike Heritage 86 cap, an emerald green jacket, dark t-shirt, and dark pants, looking between Lady Gaga and Yann LeCun.",
+            "type": "human"
+        }
+    ]
+}

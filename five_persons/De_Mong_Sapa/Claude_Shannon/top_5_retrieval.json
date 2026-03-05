@@ -1,0 +1,27 @@
+[
+    {
+        "retrieved_entity": "A Bathing Ape Bape Shark T-Shirt",
+        "similarity_score": 0.24790310859680176,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Charles & Keith Alia Chain Link Shoulder Bag Black CK2 20271111",
+        "similarity_score": 0.22059664130210876,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Fitus Mascot",
+        "similarity_score": 0.2104688435792923,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Adidas Originals Trefoil Crew Sweater",
+        "similarity_score": 0.20995545387268066,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "One Piece Luffy Gear 5 Official T-Shirt",
+        "similarity_score": 0.2020922601222992,
+        "metadata": []
+    }
+]

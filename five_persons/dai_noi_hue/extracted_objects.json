@@ -1,0 +1,36 @@
+{
+    "original_prompt": "Seamlessly integrated into the provided background scene, Ian Goodfellow, a small child, wearing a Royal helmet, dressed in a yellow t-shirt, blue denim jeans, and white sneakers occupies the center of the frame. Positioned slightly behind and in the upper-center, Haruki Murakami, an elderly woman, carrying an Osprey travel backpack, in a burgundy knitted cardigan, cream blouse, and dark slacks is holding the child and looking at them. To the middle-left, Marie Curie, a young man, holding a Sony Walkman music player, wearing a deep cobalt blue hoodie and light grey track pants stands to the left of both the child and the elderly woman, supporting the child while looking towards them. Anchored in the lower-right, Lewis Hamilton, a teenage girl in a mint green graphic tee and black ripped jeans stands to the right of the child and the elderly woman, offering support and looking at the child. Further in the background, positioned in the upper-right behind both the elderly woman and the teenage girl, Serena Williams, a broad-shouldered man, dressed in an Armani Collezioni navy suit, stands, observing the child. Photorealistic subjects, sharp focus on characters, natural light.",
+    "generalized_prompt": "Seamlessly integrated into the provided background scene, Boy A wearing red top and red pants, a small child, wearing a Royal helmet, dressed in a yellow t-shirt, blue denim jeans, and white sneakers occupies the center of the frame. Positioned slightly behind and in the upper-center, Woman A wearing blue top and blue pants, an elderly woman, carrying an Osprey travel backpack, in a burgundy knitted cardigan, cream blouse, and dark slacks is holding the child and looking at them. To the middle-left, Man A wearing green top and green pants, a young man, holding a Sony Walkman music player, wearing a deep cobalt blue hoodie and light grey track pants stands to the left of both the child and the elderly woman, supporting the child while looking towards them. Further in the background, positioned in the lower-right, Teenage Girl A wearing yellow top and yellow pants, a teenage girl in a mint green graphic tee and black ripped jeans stands to the right of the child and the elderly woman, offering support and looking at the child. Anchored in the upper-right behind both the elderly woman and the teenage girl, Man B wearing purple top and purple pants, a broad-shouldered man, dressed in an Armani Collezioni navy suit, stands, observing the child. Photorealistic subjects, sharp focus on characters, natural light.",
+    "entities": [
+        {
+            "entity": "Ian Goodfellow",
+            "replacement_name": "Boy A",
+            "description": "Ian Goodfellow, a small child, is the central figure in the frame, wearing a Royal helmet, a yellow t-shirt, blue denim jeans, and white sneakers.",
+            "type": "human"
+        },
+        {
+            "entity": "Haruki Murakami",
+            "replacement_name": "Woman A",
+            "description": "An elderly woman, Haruki Murakami, is positioned slightly behind and in the upper-center of the frame, carrying an Osprey travel backpack, wearing a burgundy knitted cardigan, cream blouse, and dark slacks. She is holding the child and looking at them.",
+            "type": "human"
+        },
+        {
+            "entity": "Marie Curie",
+            "replacement_name": "Man A",
+            "description": "Marie Curie, a young man, is positioned to the middle-left of the frame, holding a Sony Walkman music player, wearing a deep cobalt blue hoodie and light grey track pants. He is standing to the left of both the child and the elderly woman, supporting the child while looking towards them.",
+            "type": "human"
+        },
+        {
+            "entity": "Lewis Hamilton",
+            "replacement_name": "Teenage Girl A",
+            "description": "Lewis Hamilton, a teenage girl, is positioned to the middle-right of the frame, wearing a mint green graphic tee and black ripped jeans. She is standing to the right of the child and the elderly woman, offering support and looking at the child.",
+            "type": "human"
+        },
+        {
+            "entity": "Serena Williams",
+            "replacement_name": "Man B",
+            "description": "Serena Williams, a broad-shouldered man, is positioned in the lower-right of the frame, dressed in an Armani Collezioni navy suit. He is observing the child.",
+            "type": "human"
+        }
+    ]
+}

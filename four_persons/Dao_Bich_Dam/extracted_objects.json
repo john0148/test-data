@@ -1,0 +1,48 @@
+{
+    "original_prompt": "Seamlessly integrated into the provided background scene, occupying the lower-left foreground is John McCarthy, a woman in a red v-neck dress, seated, holding a kính thiên văn Celestron, next to Elvis Presley, a young man in the lower-center foreground, who wears a blue denim jacket, an áo sweater Marvel Spider-Man, and blue jeans; both are looking at each other. Further to the right, anchored in the lower-right foreground, stands Michael Jackson, a young girl in a green jumpsuit, holding a mô hình Hot Toys Iron Man, looking towards Kurt Gödel, a man positioned in the upper-right midground. This man, wearing a yellow t-shirt, dark pants, and a watch on his left wrist, has his hand near his head and is looking at the young girl, who is touching his arm; photorealistic subjects, sharp focus on characters.",
+    "generalized_prompt": "Seamlessly integrated into the provided background scene, occupying the lower-left foreground is Man A wearing red top and red pants, seated, holding a purple telescope, next to Man B wearing blue top and blue pants, a young man in the lower-center foreground who wears an orange costume and blue jeans; both are looking at each other. Further to the right, anchored in the lower-right foreground, stands Young Man A wearing green top and green pants, holding a pink toy, looking towards Man C, a man wearing a yellow T-shirt, dark pants, and a watch on his left wrist, who has his hand near his head and is looking at the young girl, who is touching his arm; photorealistic subjects, sharp focus on characters.",
+    "entities": [
+        {
+            "entity": "John McCarthy",
+            "replacement_name": "Man A",
+            "description": "John McCarthy is the central figure, seamlessly integrated into the background scene, seated in the lower-left foreground, holding a kính thiên văn Celestron.",
+            "type": "human"
+        },
+        {
+            "entity": "Elvis Presley",
+            "replacement_name": "Man B",
+            "description": "Elvis Presley is positioned in the lower-center foreground, wearing a blue denim jacket and an áo sweater Marvel Spider-Man, looking at Michael Jackson.",
+            "type": "human"
+        },
+        {
+            "entity": "Michael Jackson",
+            "replacement_name": "Young Man A",
+            "description": "Michael Jackson is positioned in the lower-right foreground, standing with a young girl in a green jumpsuit. The girl is holding a mô hình Hot Toys Iron Man and looking towards Kurt Gödel.",
+            "type": "human"
+        },
+        {
+            "entity": "Kurt Gödel",
+            "replacement_name": "Man C",
+            "description": "Kurt Gödel is positioned in the upper-right midground, wearing a yellow t-shirt, dark pants, and a watch on his left wrist. He is looking at Michael Jackson's daughter, who is touching his arm.",
+            "type": "human"
+        },
+        {
+            "entity": "Celestron",
+            "replacement_name": "telescope",
+            "description": "A kính thiên văn Celestron is held by John McCarthy, seamlessly integrated into the background scene.",
+            "type": "object"
+        },
+        {
+            "entity": "Marvel Spider-Man",
+            "replacement_name": "costume",
+            "description": "An áo sweater Marvel Spider-Man is worn by Elvis Presley, positioned in the lower-center foreground.",
+            "type": "object"
+        },
+        {
+            "entity": "Hot Toys Iron Man",
+            "replacement_name": "toy",
+            "description": "A mô hình Hot Toys Iron Man is held by Michael Jackson's daughter, positioned in the lower-right foreground.",
+            "type": "object"
+        }
+    ]
+}

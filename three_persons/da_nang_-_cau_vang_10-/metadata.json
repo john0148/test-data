@@ -1,0 +1,53 @@
+{
+  "location": "da_nang_-_cau_vang_10-",
+  "entry_id": "20251121_222352",
+  "original_prompt": "Seamlessly integrated into the provided background scene, positioned in the middle-center of the frame is Estée Lauder, a woman, holding a túi xách Dior Saddle, dressed in a blue tank top and dark cargo pants. Immediately above her, occupying the top-center, is Steve Jobs, a young boy wearing a red hoodie and grey pants, whom she is holding. This young boy is positioned in the upper-left of Martin Luther King Jr., an older man. Nearby, slightly to the right and slightly behind Estée Lauder, anchoring the lower-right foreground, is Martin Luther King Jr., an older man, holding a gấu teddy Ikea Djungelskog, wearing a yellow button-up shirt and light grey jeans, who is also situated lower-right of Steve Jobs. Martin Luther King Jr. is touching Steve Jobs, and Estée Lauder is near Martin Luther King Jr. All three individuals are looking at each other. photorealistic subjects, sharp focus on characters.",
+  "generalized_prompt": "Seamlessly integrated into the provided background scene, positioned in the middle-center of the frame is Woman A wearing red top and red pants, holding a blue handbag, dressed in a blue tank top and dark cargo pants. Immediately above her, occupying the top-center, is Boy A wearing green top and green pants, whom she is holding. This young boy is positioned in the upper-left of Man A, an older man, wearing yellow top and yellow pants. Nearby, slightly to the right and slightly behind Woman A, anchoring the lower-right foreground, is Man A, an older man, holding a purple teddy bear, wearing a yellow button-up shirt and light grey jeans, who is also situated lower-right of Boy A. Man A is touching Boy A, and Woman A is near Man A. All three individuals are looking at each other. photorealistic subjects, sharp focus on characters.",
+  "entities": [
+    {
+      "entity": "Estée Lauder",
+      "type": "human",
+      "description": "Estée Lauder is a woman holding a túi xách Dior Saddle, dressed in a blue tank top and dark cargo pants, positioned in the middle-center of the frame.",
+      "replacement_name": "Woman A",
+      "image_file": "Estée_Lauder.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "túi xách Dior Saddle",
+      "type": "object",
+      "description": "A specific Dior Saddle handbag held by Estée Lauder, which is a particular named product.",
+      "replacement_name": "handbag",
+      "image_file": "túi_xách_Dior_Saddle.jpg",
+      "retrieved_entity": "Dior Saddle Bag Blue Oblique Canvas",
+      "folder_name": "túi_xách_dior_saddle_bag_blue_oblique_canvas"
+    },
+    {
+      "entity": "Steve Jobs",
+      "type": "human",
+      "description": "Steve Jobs is a young boy wearing a red hoodie and grey pants, positioned in the upper-left of Martin Luther King Jr., holding a specific person.",
+      "replacement_name": "Boy A",
+      "image_file": "Steve_Jobs.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "Martin Luther King Jr.",
+      "type": "human",
+      "description": "Martin Luther King Jr. is an older man, holding a gấu teddy Ikea Djungelskog, wearing a yellow button-up shirt and light grey jeans, positioned lower-right of Steve Jobs and looking at the other two individuals.",
+      "replacement_name": "Man A",
+      "image_file": "Martin_Luther_King_Jr.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "gấu teddy Ikea Djungelskog",
+      "type": "object",
+      "description": "A specific Teddy bear, Ikea Djungelskog, held by Martin Luther King Jr., which is a particular named product.",
+      "replacement_name": "teddy bear",
+      "image_file": "gấu_teddy_Ikea_Djungelskog.jpg",
+      "retrieved_entity": "Ikea Djungelskog Teddy Bear",
+      "folder_name": "gấu_teddy_ikea_djungelskog"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "location": "One_Pillar_Pagoda_Hanoi",
+  "entry_id": "20251120_071742",
+  "original_prompt": "Seamlessly integrated into the provided background scene, positioned in the mid-ground, Barbara Liskov, a young woman is anchored in the middle-left, holding an iPhone 17 Pro Max, and wearing a đồng phục Shopee Express áo cam phối đen and a gold necklace. Immediately to her right, occupying the middle-right, Marilyn Monroe, an older man is seated next to her, with a balo du lịch Osprey Farpoint resting on his lap, dressed in a faded blue denim jacket over a white t-shirt, dark blue jeans, and a silver ring. The two subjects are intimately hugging, with the woman's head gently touching the man's cheek, and their hands touching. The scene is captured with photorealistic subjects, sharp focus on characters, cinematic lighting.",
+  "generalized_prompt": "Seamlessly integrated into the provided background scene, positioned in the mid-ground, Woman A wearing red top and red pants is anchored in the middle-left, holding a blue smartphone, and wearing a green uniform and a gold necklace. Immediately to her right, Man A wearing yellow top and yellow pants is seated next to her, with a purple backpack resting on his lap, dressed in a faded blue denim jacket over a white t-shirt, dark blue jeans, and a silver ring. The two subjects are intimately hugging, with Woman A's head gently touching Man A's cheek, and their hands touching. The scene is captured with photorealistic subjects, sharp focus on characters, cinematic lighting.",
+  "entities": [
+    {
+      "entity": "Barbara Liskov",
+      "type": "human",
+      "description": "A young woman is positioned in the mid-ground of the provided background scene, anchored in the middle-left, holding an iPhone 17 Pro Max, and wearing a đồng phục Shopee Express áo cam phối đen and a gold necklace.",
+      "replacement_name": "Woman A",
+      "image_file": "Barbara_Liskov.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "iPhone 17 Pro Max",
+      "type": "object",
+      "description": "An iPhone 17 Pro Max held by Barbara Liskov in the mid-ground of the provided background scene.",
+      "replacement_name": "smartphone",
+      "image_file": "iPhone_17_Pro_Max.jpg",
+      "retrieved_entity": "iPhone 17 Pro Max",
+      "folder_name": "iphone_17_pro_max"
+    },
+    {
+      "entity": "đồng phục Shopee Express áo cam phối đen",
+      "type": "object",
+      "description": "A đồng phục Shopee Express áo cam phối đen worn by Barbara Liskov in the mid-ground of the provided background scene.",
+      "replacement_name": "uniform",
+      "image_file": "đồng_phục_Shopee_Express_áo_cam_phối_đen.jpg",
+      "retrieved_entity": "Vietnam Airlines Uniform Yellow And Blue Ao Dai",
+      "folder_name": "đồng_phục_vietnam_airlines_áo_dài_vàng_xanh"
+    },
+    {
+      "entity": "Marilyn Monroe",
+      "type": "human",
+      "description": "An older man is seated next to Barbara Liskov in the mid-ground of the provided background scene, immediately to her right, occupying the middle-right. He is dressed in a faded blue denim jacket over a white t-shirt, dark blue jeans, and a silver ring, with a balo du lịch Osprey Farpoint resting on his lap.",
+      "replacement_name": "Man A",
+      "image_file": "Marilyn_Monroe.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "balo du lịch Osprey Farpoint",
+      "type": "object",
+      "description": "A balo du lịch Osprey Farpoint resting on the lap of Marilyn Monroe in the mid-ground of the provided background scene.",
+      "replacement_name": "backpack",
+      "image_file": "balo_du_lịch_Osprey_Farpoint.jpg",
+      "retrieved_entity": "Osprey Farpoint 40 Travel Backpack",
+      "folder_name": "balo_du_lịch_osprey_farpoint_40"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+[
+    {
+        "retrieved_entity": "Ikea Djungelskog Teddy Bear",
+        "similarity_score": 0.26088783144950867,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "A Bathing Ape Bape Shark T-Shirt",
+        "similarity_score": 0.2331385314464569,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Men's Ao Dai With Turban",
+        "similarity_score": 0.21120786666870117,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Doraemon 40cm Plush Toy",
+        "similarity_score": 0.20252925157546997,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "The North Face Nuptse Jacket",
+        "similarity_score": 0.20202341675758362,
+        "metadata": []
+    }
+]

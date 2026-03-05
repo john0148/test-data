@@ -1,0 +1,102 @@
+{
+    "original_prompt": "Seamlessly integrated into the provided background scene, Taylor Swift, an elderly man, wearing a Harry Potter Gryffindor robe cosplay set is positioned in the upper-left foreground of the frame. Below and slightly right of him, in the middle-left foreground, Vincent van Gogh, a young girl, dressed in an H&M satin A-line slip dress is touching the elderly man. To the right of the young girl, occupying the middle-center foreground, is Margaret Hamilton, a young woman, in a deep crimson tank top and black athletic shorts, holding a luxury iconic golden lion handle umbrella; she is touching the young girl and leaning towards her. Further to the right of the young woman, in the middle-right foreground, Cleopatra, a middle-aged woman, wearing an emerald green loose linen blouse and beige wide-leg pants, holding a DJI Mini 4 Pro drone is touching the young woman. photorealistic subjects, sharp focus on characters, outdoor setting, group portrait.",
+    "generalized_prompt": "Seamlessly integrated into the provided background scene, Woman A wearing red T-shirt, Man A wearing blue top and blue pants, positioned in the upper-left foreground of the frame. Below and slightly right of him, in the middle-left foreground, Boy A wearing yellow T-shirt, a Girl A wearing purple top and purple pants, is touching the elderly man. To the right of the young girl, occupying the middle-center foreground, is Woman B wearing pink top and pink pants, in a brown tank top and white shorts, holding a black umbrella; she is touching the young girl and leaning towards her. Further to the right of the young woman, in the middle-right foreground, Woman D wearing gray T-shirt, a Woman E wearing magenta T-shirt, holding a silver drone, is touching the young woman. photorealistic subjects, sharp focus on characters, outdoor setting, group portrait.",
+    "entities": [
+        {
+            "entity": "Taylor Swift",
+            "replacement_name": "Woman A",
+            "description": "",
+            "type": "human"
+        },
+        {
+            "entity": "elderly man",
+            "replacement_name": "Man A",
+            "description": "",
+            "type": "human"
+        },
+        {
+            "entity": "Harry Potter Gryffindor robe",
+            "replacement_name": "robe",
+            "description": "",
+            "type": "object"
+        },
+        {
+            "entity": "Vincent van Gogh",
+            "replacement_name": "Boy A",
+            "description": "",
+            "type": "human"
+        },
+        {
+            "entity": "young girl",
+            "replacement_name": "Girl A",
+            "description": "",
+            "type": "human"
+        },
+        {
+            "entity": "H&M satin A-line slip dress",
+            "replacement_name": "dress",
+            "description": "",
+            "type": "object"
+        },
+        {
+            "entity": "Margaret Hamilton",
+            "replacement_name": "Woman B",
+            "description": "",
+            "type": "human"
+        },
+        {
+            "entity": "young woman",
+            "replacement_name": "Woman C",
+            "description": "",
+            "type": "human"
+        },
+        {
+            "entity": "deep crimson tank top",
+            "replacement_name": "tank top",
+            "description": "",
+            "type": "object"
+        },
+        {
+            "entity": "black athletic shorts",
+            "replacement_name": "shorts",
+            "description": "",
+            "type": "object"
+        },
+        {
+            "entity": "luxury iconic golden lion handle umbrella",
+            "replacement_name": "umbrella",
+            "description": "",
+            "type": "object"
+        },
+        {
+            "entity": "Cleopatra",
+            "replacement_name": "Woman D",
+            "description": "",
+            "type": "human"
+        },
+        {
+            "entity": "middle-aged woman",
+            "replacement_name": "Woman E",
+            "description": "",
+            "type": "human"
+        },
+        {
+            "entity": "emerald green loose linen blouse",
+            "replacement_name": "blouse",
+            "description": "",
+            "type": "object"
+        },
+        {
+            "entity": "beige wide-leg pants",
+            "replacement_name": "pants",
+            "description": "",
+            "type": "object"
+        },
+        {
+            "entity": "DJI Mini 4 Pro drone",
+            "replacement_name": "drone",
+            "description": "",
+            "type": "object"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+  "location": "Son_Tay_ancient_citadel",
+  "entry_id": "20251122_010929",
+  "original_prompt": "Seamlessly integrated into the provided background scene, occupying the lower-left foreground is Pelé, a Man, dressed in a Green long-sleeved button-up shirt, holding a Fitus mascot. Positioned in the upper-right, slightly above and to the right of Pelé, is Frida Kahlo, a Woman, wearing a Bright pink crop top and blue denim shorts, holding an iPhone; her head touches Pelé's. Anchored in the lower-right foreground, slightly right of Pelé and lower-right of Frida Kahlo, is Gregor Mendel, a Child, wearing a white student Ao Dai; Gregor Mendel's head also touches both Pelé's and Frida Kahlo's, and Gregor Mendel is looking at Pelé. photorealistic subjects, sharp focus on characters.",
+  "generalized_prompt": "Seamlessly integrated into the provided background scene, occupying the lower-left foreground is Man A, wearing a red top and red pants, holding a Fitus mascot. Positioned in the upper-right, slightly above and to the right of Man A, is Woman A, wearing a blue top and blue pants, holding an iPhone; her head touches Man A's. Anchored in the lower-right foreground, slightly right of Man A and lower-right of Woman A, is Child A, wearing a green top and green pants; Child A's head also touches both Man A's and Woman A's, and Child A is looking at Man A. photorealistic subjects, sharp focus on characters.",
+  "entities": [
+    {
+      "entity": "Pelé",
+      "type": "human",
+      "description": "Pelé, a Man, is seamlessly integrated into the background scene, dressed in a Green long-sleeved button-up shirt and holding a Fitus mascot, positioned in the lower-left foreground.",
+      "replacement_name": "Man A",
+      "image_file": "Pelé.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "Frida Kahlo",
+      "type": "human",
+      "description": "Frida Kahlo, a Woman, is positioned in the upper-right, slightly above and to the right of Pelé, wearing a Bright pink crop top and blue denim shorts, holding an iPhone; her head touches Pelé's.",
+      "replacement_name": "Woman A",
+      "image_file": "Frida_Kahlo.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "Gregor Mendel",
+      "type": "human",
+      "description": "Gregor Mendel, a Child, is anchored in the lower-right foreground, slightly right of Pelé and lower-right of Frida Kahlo, wearing a white student Ao Dai; his head also touches both Pelé's and Frida Kahlo's, and he is looking at Pelé.",
+      "replacement_name": "Child A",
+      "image_file": "Gregor_Mendel.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    }
+  ]
+}

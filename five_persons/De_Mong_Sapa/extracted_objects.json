@@ -1,0 +1,60 @@
+{
+    "original_prompt": "Seamlessly integrated into the provided background scene, positioned in the far-left foreground is Charles Dickens, a man wearing an áo khoác Uniqlo, white shirt, and dark trousers, looking towards the right. Immediately to the right of this man, occupying the middle-left, stands Meryl Streep, a man dressed in an emerald green long-sleeved shirt and dark trousers, holding a mô hình Hot Toys Iron Man; he is looking at and gently touching Claude Shannon, a young woman. This young woman, Claude Shannon, centrally located, wears a vibrant yellow short-sleeved dress, cradling a thú bông Totoro, and is touching and leaning towards Rosalind Franklin, a boy. Situated in the lower-right foreground, slightly in front of an elderly woman, is Rosalind Franklin, a boy, dressed in a bright orange t-shirt and blue denim shorts, holding a sách Atomic Habits. Behind the boy, anchored in the top-right mid-ground, is Lewis Hamilton, an elderly woman, adorned in a cream-colored cardigan, purple floral dress, and a necklace, touching and looking at the boy; photorealistic subjects, sharp focus on characters.",
+    "generalized_prompt": "Seamlessly integrated into the provided background scene, positioned in the far-left foreground is Man A wearing red top and red pants, looking towards the right. Immediately to the right of this man, occupying the middle-left, stands Woman A wearing blue top and blue pants, holding a pink toy; she is looking at and gently touching Woman B, a young woman wearing a vibrant green top and green pants, who is touching and leaning towards Boy A, a boy wearing a yellow top and yellow pants. This young woman, Woman B, centrally located, wears a vibrant yellow short-sleeved dress, cradling a cyan toy, Totoro; she is touching and leaning towards Boy A. Situated in the lower-right foreground, slightly in front of an elderly woman, is Boy A, a boy, dressed in a bright orange t-shirt and blue denim shorts, holding a brown book; behind the boy, anchored in the top-right mid-ground, is Elderly Woman A, an elderly woman, adorned in a cream-colored cardigan, purple floral dress, and a necklace, touching and looking at Boy A; photorealistic subjects, sharp focus on characters.",
+    "entities": [
+        {
+            "entity": "Charles Dickens",
+            "replacement_name": "Man A",
+            "description": "",
+            "type": "human"
+        },
+        {
+            "entity": "Meryl Streep",
+            "replacement_name": "Woman A",
+            "description": "",
+            "type": "human"
+        },
+        {
+            "entity": "Claude Shannon",
+            "replacement_name": "Woman B",
+            "description": "",
+            "type": "human"
+        },
+        {
+            "entity": "Rosalind Franklin",
+            "replacement_name": "Boy A",
+            "description": "",
+            "type": "human"
+        },
+        {
+            "entity": "Lewis Hamilton",
+            "replacement_name": "Elderly Woman A",
+            "description": "",
+            "type": "human"
+        },
+        {
+            "entity": "Uniqlo",
+            "replacement_name": "clothing brand",
+            "description": "",
+            "type": "object"
+        },
+        {
+            "entity": "Hot Toys Iron Man",
+            "replacement_name": "toy",
+            "description": "",
+            "type": "object"
+        },
+        {
+            "entity": "Totoro",
+            "replacement_name": "toy",
+            "description": "",
+            "type": "object"
+        },
+        {
+            "entity": "Atomic Habits",
+            "replacement_name": "book",
+            "description": "",
+            "type": "object"
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+  "location": "One_Pillar_Pagoda_Hanoi",
+  "entry_id": "20251120_110751",
+  "original_prompt": "Seamlessly integrated into the provided background scene, positioned in the middle-left of the frame is Benjamin Franklin, an elderly man, wearing a green short-sleeved collared shirt and holding a bộ ấm trà gốm Minh Long Jasmine. To his immediate right, occupying the middle-center, is Tom Hanks, a young woman, dressed in a áo sweater Pokemon Pikachu and a silver necklace with a dark pendant, with Benjamin Franklin hugging and touching her while leaning towards her. Further to her right, anchored in the middle-right of the frame, stands Walt Disney, a teenage boy, wearing a royal blue hoodie, with Tom Hanks hugging him as he leans towards her. This group forms a cohesive mid-ground composition, captured with photorealistic subjects and a sharp focus on the characters.",
+  "generalized_prompt": "Seamlessly integrated into the provided background scene, positioned in the middle-left of the frame is Man A wearing red top and red pants, holding a yellow tea set. To his immediate right, occupying the middle-center, is Woman A wearing blue top and blue pants, dressed in a purple sweater and a silver necklace with a dark pendant, with Man A hugging and touching her while leaning towards her. Further to her right, anchored in the middle-right of the frame, stands Teenage Boy A wearing green top and green pants, with Woman A hugging him as he leans towards her. This group forms a cohesive mid-ground composition, captured with photorealistic subjects and a sharp focus on the characters.",
+  "entities": [
+    {
+      "entity": "Benjamin Franklin",
+      "type": "human",
+      "description": "An elderly Benjamin Franklin, positioned in the middle-left of the frame, wearing a green short-sleeved collared shirt and holding a bộ ấm trà gốm Minh Long Jasmine.",
+      "replacement_name": "Man A",
+      "image_file": "Benjamin_Franklin.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "Tom Hanks",
+      "type": "human",
+      "description": "A young woman Tom Hanks, positioned in the middle-center of the frame, dressed in an áo sweater Pokemon Pikachu and a silver necklace with a dark pendant.",
+      "replacement_name": "Woman A",
+      "image_file": "Tom_Hanks.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "Walt Disney",
+      "type": "human",
+      "description": "A teenage Walt Disney, positioned in the middle-right of the frame, wearing a royal blue hoodie.",
+      "replacement_name": "Teenage Boy A",
+      "image_file": "Walt_Disney.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "bộ ấm trà gốm Minh Long Jasmine",
+      "type": "object",
+      "description": "A green short-sleeved collared shirt worn by Benjamin Franklin.",
+      "replacement_name": "tea set",
+      "image_file": "bộ_ấm_trà_gốm_Minh_Long_Jasmine.jpg",
+      "retrieved_entity": "Vietnamese Traditional White School Ao Dai",
+      "folder_name": "áo_dài_trắng_học_sinh"
+    },
+    {
+      "entity": "áo sweater Pokemon Pikachu",
+      "type": "object",
+      "description": "An áo sweater Pokemon Pikachu worn by Tom Hanks.",
+      "replacement_name": "sweater",
+      "image_file": "áo_sweater_Pokemon_Pikachu.jpg",
+      "retrieved_entity": "Official Pokemon Pikachu Sweater",
+      "folder_name": "áo_sweater_pokemon_pikachu_official"
+    },
+    {
+      "entity": "royal blue hoodie",
+      "type": "object",
+      "description": "A royal blue hoodie worn by Walt Disney.",
+      "replacement_name": "hoodie",
+      "image_file": "royal_blue_hoodie.jpg",
+      "retrieved_entity": "Champion Reverse Weave Hoodie",
+      "folder_name": "áo_hoodie_champion_reverse_weave"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "objects": [
+    {
+      "id": "A",
+      "name": "elderly man",
+      "outfit": "grey cable-knit sweater, dark trousers",
+      "position": {
+        "absolute": "upper-left",
+        "relative_to": [
+          {
+            "object_id": "B",
+            "relation": "above and slightly_left_of"
+          },
+          {
+            "object_id": "C",
+            "relation": "above and left_of"
+          },
+          {
+            "object_id": "D",
+            "relation": "above and far_left_of"
+          }
+        ]
+      }
+    },
+    {
+      "id": "B",
+      "name": "young girl",
+      "outfit": "orange and yellow patterned long-sleeve shirt, light blue ripped jeans, white sneakers",
+      "position": {
+        "absolute": "middle-left",
+        "relative_to": [
+          {
+            "object_id": "A",
+            "relation": "below and slightly_right_of"
+          },
+          {
+            "object_id": "C",
+            "relation": "left_of"
+          },
+          {
+            "object_id": "D",
+            "relation": "far_left_of"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C",
+      "name": "young woman",
+      "outfit": "deep crimson tank top, black athletic shorts",
+      "position": {
+        "absolute": "middle-center",
+        "relative_to": [
+          {
+            "object_id": "A",
+            "relation": "below and right_of"
+          },
+          {
+            "object_id": "B",
+            "relation": "right_of"
+          },
+          {
+            "object_id": "D",
+            "relation": "left_of"
+          }
+        ]
+      }
+    },
+    {
+      "id": "D",
+      "name": "middle-aged woman",
+      "outfit": "emerald green loose linen blouse, beige wide-leg pants",
+      "position": {
+        "absolute": "middle-right",
+        "relative_to": [
+          {
+            "object_id": "A",
+            "relation": "below and far_right_of"
+          },
+          {
+            "object_id": "B",
+            "relation": "far_right_of"
+          },
+          {
+            "object_id": "C",
+            "relation": "right_of"
+          }
+        ]
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "id_1": "A",
+      "id_2": "B",
+      "relationship": "touching"
+    },
+    {
+      "id_1": "B",
+      "id_2": "C",
+      "relationship": "touching and leaning_towards"
+    },
+    {
+      "id_1": "D",
+      "id_2": "C",
+      "relationship": "touching"
+    }
+  ]
+}

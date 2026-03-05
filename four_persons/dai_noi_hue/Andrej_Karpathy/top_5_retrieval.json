@@ -1,0 +1,27 @@
+[
+    {
+        "retrieved_entity": "Michael Kors Hamilton Small Signature Logo Satchel Bag 35S4GHMS1B",
+        "similarity_score": 0.3379056453704834,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Spalding NBA Basketball",
+        "similarity_score": 0.30775654315948486,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Los Angeles Lakers Lebron James Basketball Jersey",
+        "similarity_score": 0.28046661615371704,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Golden Oscar Statue",
+        "similarity_score": 0.2686517536640167,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "VinFast Klara S Electric Scooter",
+        "similarity_score": 0.24711252748966217,
+        "metadata": []
+    }
+]

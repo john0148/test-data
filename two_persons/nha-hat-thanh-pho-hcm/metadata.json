@@ -1,0 +1,44 @@
+{
+  "location": "nha-hat-thanh-pho-hcm",
+  "entry_id": "20251120_073816",
+  "original_prompt": "Seamlessly integrated into the provided background scene, occupying the middle-left is Leo Tolstoy, a young woman, elegantly clad in a ruby-red silk slip dress, wearing AirPods Max headphones around her neck. Positioned in the middle-right, slightly behind, slightly right of, and slightly above her, stands Jony Ive, a man dressed in a dark indigo denim shirt with rolled-up sleeves and khaki trousers, with his foot casually resting on a Honda SH scooter; he is holding and supporting the young woman, who is leaning against him with her head resting on him, creating a tender interaction between the two subjects, photorealistic subjects, sharp focus on characters.",
+  "generalized_prompt": "Seamlessly integrated into the provided background scene, occupying the middle-left is Man A wearing red top and red pants, a young woman, elegantly clad in a ruby-red silk slip dress, wearing green headphones around her neck. Positioned in the middle-right, slightly behind, slightly right of, and slightly above her, stands Man B wearing blue top and blue pants, a man dressed in a dark indigo denim shirt with rolled-up sleeves and khaki trousers, with his foot casually resting on a yellow scooter; he is holding and supporting the young woman, who is leaning against him with her head resting on him, creating a tender interaction between the two subjects, photorealistic subjects, sharp focus on characters.",
+  "entities": [
+    {
+      "entity": "Leo Tolstoy",
+      "type": "human",
+      "description": "Leo Tolstoy is the central figure in the scene, seamlessly integrated into the background, occupying the middle-left position, elegantly clad in a ruby-red silk slip dress.",
+      "replacement_name": "Man A",
+      "image_file": "Leo_Tolstoy.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "Jony Ive",
+      "type": "human",
+      "description": "Jony Ive is positioned in the middle-right, slightly behind, slightly right of, and slightly above the young woman. He is depicted as a man dressed in a dark indigo denim shirt with rolled-up sleeves and khaki trousers, with his foot resting on a Honda SH scooter. He is holding and supporting the young woman, who is leaning against him with her head resting on his shoulder, creating a tender interaction between the two subjects.",
+      "replacement_name": "Man B",
+      "image_file": "Jony_Ive.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "AirPods Max",
+      "type": "object",
+      "description": "AirPods Max headphones are worn around the neck of the young woman, adding to her elegant attire.",
+      "replacement_name": "headphones",
+      "image_file": "AirPods_Max.jpg",
+      "retrieved_entity": "AirPods Max Headphones",
+      "folder_name": "tai_nghe_airpods_max"
+    },
+    {
+      "entity": "Honda SH",
+      "type": "object",
+      "description": "A Honda SH scooter is positioned in the scene, with Jony Ive's foot resting on it, further enhancing the photorealistic and detailed depiction of the setting.",
+      "replacement_name": "scooter",
+      "image_file": "Honda_SH.jpg",
+      "retrieved_entity": "Honda SH Scooter",
+      "folder_name": "xe_máy_honda_sh"
+    }
+  ]
+}

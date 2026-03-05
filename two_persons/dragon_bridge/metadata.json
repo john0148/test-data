@@ -1,0 +1,44 @@
+{
+  "location": "dragon_bridge",
+  "entry_id": "20251122_022638",
+  "original_prompt": "Seamlessly integrated into the provided background scene, positioned in the mid-ground, Andrew Ng, a young woman, occupies the middle-left portion of the frame, dressed in a sunflower yellow maxi dress, small silver earrings, and a silver ring on her left ring finger, holding a tượng nhỏ Doraemon. Standing directly behind her and slightly towards the middle-right, Larry Ellison, a young man, wearing a deep sapphire blue denim jacket, dark wash jeans, an áo thun Supreme, and a silver watch on his left wrist, is embracing her from behind, his head gently touching her shoulder, holding an iPhone, while she touches him. photorealistic subjects, sharp focus on characters, warm lighting.",
+  "generalized_prompt": "Seamlessly integrated into the provided background scene, positioned in the mid-ground, Man A wearing red top and red pants, occupies the middle-left portion of the frame, dressed in a sunflower yellow maxi dress, small silver earrings, and a silver ring on his left ring finger, holding a green toy. Standing directly behind him and slightly towards the middle-right, Man B wearing blue top and blue pants, embraces him from behind, his head gently touching his shoulder, holding a yellow phone, while he touches him. photorealistic subjects, sharp focus on characters, warm lighting.",
+  "entities": [
+    {
+      "entity": "Andrew Ng",
+      "type": "human",
+      "description": "Andrew Ng is positioned in the mid-ground of the photorealistic scene, dressed in a sunflower yellow maxi dress, small silver earrings, and a silver ring on his left ring finger, holding a tượng nhỏ Doraemon.",
+      "replacement_name": "Man A",
+      "image_file": "Andrew_Ng.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "Larry Ellison",
+      "type": "human",
+      "description": "Larry Ellison is standing directly behind Andrew Ng, slightly towards the middle-right of the frame. He is a young man wearing a deep sapphire blue denim jacket, dark wash jeans, an áo thun Supreme, and a silver watch on his left wrist. He is embracing Andrew Ng from behind, with his head gently touching her shoulder, and he is holding an iPhone.",
+      "replacement_name": "Man B",
+      "image_file": "Larry_Ellison.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "tượng nhỏ Doraemon",
+      "type": "object",
+      "description": "A small Doraemon figurine is held by Andrew Ng.",
+      "replacement_name": "toy",
+      "image_file": "tượng_nhỏ_Doraemon.jpg",
+      "retrieved_entity": "Doraemon Small Statue",
+      "folder_name": "tượng_nhỏ_doraemon"
+    },
+    {
+      "entity": "iPhone",
+      "type": "object",
+      "description": "Larry Ellison is holding an iPhone.",
+      "replacement_name": "phone",
+      "image_file": "iPhone.jpg",
+      "retrieved_entity": "iPhone 17 Pro Max",
+      "folder_name": "iphone_17_pro_max"
+    }
+  ]
+}

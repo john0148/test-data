@@ -1,0 +1,27 @@
+[
+    {
+        "retrieved_entity": "Barcelona Home Kit 2024/25 Football Shirt",
+        "similarity_score": 0.33268028497695923,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Los Angeles Lakers Lebron James Basketball Jersey",
+        "similarity_score": 0.2794981598854065,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Tommy Hilfiger Signature Polo Shirt",
+        "similarity_score": 0.2582053542137146,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Manchester United Home Jersey 2024/25 Football Shirt",
+        "similarity_score": 0.2464286983013153,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Fitus Mascot",
+        "similarity_score": 0.2391219139099121,
+        "metadata": []
+    }
+]

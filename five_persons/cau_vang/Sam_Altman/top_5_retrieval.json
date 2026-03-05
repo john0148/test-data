@@ -1,0 +1,27 @@
+[
+    {
+        "retrieved_entity": "Marvel Spider-Man Sweater",
+        "similarity_score": 0.28733736276626587,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Sony Walkman NW A300 Music Player",
+        "similarity_score": 0.25275248289108276,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Michael Kors Hamilton Small Signature Logo Satchel Bag 35S4GHMS1B",
+        "similarity_score": 0.2418312132358551,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Spalding NBA Basketball",
+        "similarity_score": 0.23714694380760193,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Tommy Hilfiger Signature Polo Shirt",
+        "similarity_score": 0.21745727956295013,
+        "metadata": []
+    }
+]

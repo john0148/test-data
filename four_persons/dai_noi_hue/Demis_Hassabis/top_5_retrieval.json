@@ -1,0 +1,27 @@
+[
+    {
+        "retrieved_entity": "Star Wars Darth Vader Black Hoodie",
+        "similarity_score": 0.2785918116569519,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Golden Oscar Statue",
+        "similarity_score": 0.2643430531024933,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Uniqlo U Blocktech Parka Jacket",
+        "similarity_score": 0.2534317970275879,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Los Angeles Lakers Lebron James Basketball Jersey",
+        "similarity_score": 0.24681493639945984,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Herschel Little America 25L Backpack",
+        "similarity_score": 0.2462613880634308,
+        "metadata": []
+    }
+]

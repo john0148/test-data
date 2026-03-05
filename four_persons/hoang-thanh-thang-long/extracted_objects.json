@@ -1,0 +1,42 @@
+{
+    "original_prompt": "Seamlessly integrated into the provided background scene, positioned in the top-left is Eleanor Roosevelt, an elegant woman, holding a laptop Macbook Pro, wearing a red long-sleeved dress and a gold earring. Slightly below and to her right, occupying the top-right, stands Jeff Bezos, a muscular man in a blue t-shirt and dark jeans, who is touching and standing next to Eleanor Roosevelt. Centered in the mid-ground, slightly below and to the left of Jeff Bezos, is Muhammad Ali, a young woman with short hair, holding a bàn phím cơ Keychron, adorned in a yellow crop top, dark jeans, and a silver necklace, touching and standing next to Jeff Bezos. Anchored in the bottom-left foreground, below and to the left of Muhammad Ali, stands Usain Bolt, a teenage boy wearing a Barcelona home kit, touching and near Muhammad Ali. Photorealistic subjects, sharp focus on characters, natural lighting, cinematic composition.",
+    "generalized_prompt": "Seamlessly integrated into the provided background scene, positioned in the top-left is Woman A wearing red top and red pants, holding a purple laptop, wearing a gold earring. Slightly below and to her right, occupying the top-right, stands Man A wearing blue top and blue pants, who is touching and standing next to Woman A. Centered in the mid-ground, slightly below and to the left of Man A, is Young Woman A wearing green top and green pants, holding an orange keyboard, adorned in dark jeans and a silver necklace, touching and standing next to Man A. Anchored in the bottom-left foreground, below and to the left of Young Woman A, stands Teenage Boy A wearing yellow top and yellow pants, touching and near Young Woman A. Photorealistic subjects, sharp focus on characters, natural lighting, cinematic composition.",
+    "entities": [
+        {
+            "entity": "Eleanor Roosevelt",
+            "replacement_name": "Woman A",
+            "description": "Eleanor Roosevelt, an elegant woman, is positioned in the top-left corner of the background scene, holding a laptop Macbook Pro, wearing a red long-sleeved dress and a gold earring.",
+            "type": "human"
+        },
+        {
+            "entity": "Jeff Bezos",
+            "replacement_name": "Man A",
+            "description": "Jeff Bezos, a muscular man in a blue t-shirt and dark jeans, is positioned in the top-right corner, slightly below and to the right of Eleanor Roosevelt, touching and standing next to her.",
+            "type": "human"
+        },
+        {
+            "entity": "Muhammad Ali",
+            "replacement_name": "Young Woman A",
+            "description": "Muhammad Ali, a young woman with short hair, is centered in the mid-ground, slightly below and to the left of Jeff Bezos, touching and standing next to him. She is holding a bàn phím cơ Keychron, adorned in a yellow crop top, dark jeans, and a silver necklace.",
+            "type": "human"
+        },
+        {
+            "entity": "Usain Bolt",
+            "replacement_name": "Teenage Boy A",
+            "description": "Usain Bolt, a teenage boy wearing a Barcelona home kit, is anchored in the bottom-left foreground, below and to the left of Muhammad Ali, touching and near her.",
+            "type": "human"
+        },
+        {
+            "entity": "Macbook Pro",
+            "replacement_name": "laptop",
+            "description": "A laptop Macbook Pro held by Eleanor Roosevelt in the top-left corner of the scene.",
+            "type": "object"
+        },
+        {
+            "entity": "Keychron",
+            "replacement_name": "keyboard",
+            "description": "A bàn phím cơ Keychron held by Muhammad Ali in the mid-ground, slightly below and to the left of Jeff Bezos.",
+            "type": "object"
+        }
+    ]
+}

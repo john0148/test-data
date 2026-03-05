@@ -1,0 +1,114 @@
+{
+  "objects": [
+    {
+      "id": "A",
+      "name": "Woman",
+      "outfit": "red v-neck dress",
+      "position": {
+        "absolute": "lower-left",
+        "relative_to": [
+          {
+            "object_id": "B",
+            "relation": "left_of"
+          },
+          {
+            "object_id": "C",
+            "relation": "far_left_of"
+          },
+          {
+            "object_id": "D",
+            "relation": "far_left_of"
+          }
+        ]
+      }
+    },
+    {
+      "id": "B",
+      "name": "Young man",
+      "outfit": "blue denim jacket, light shirt, blue jeans",
+      "position": {
+        "absolute": "lower-center",
+        "relative_to": [
+          {
+            "object_id": "A",
+            "relation": "right_of"
+          },
+          {
+            "object_id": "C",
+            "relation": "left_of"
+          },
+          {
+            "object_id": "D",
+            "relation": "left_of"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C",
+      "name": "Man",
+      "outfit": "yellow t-shirt, dark pants, watch on left wrist",
+      "position": {
+        "absolute": "upper-right",
+        "relative_to": [
+          {
+            "object_id": "A",
+            "relation": "far_right_of"
+          },
+          {
+            "object_id": "B",
+            "relation": "right_of"
+          },
+          {
+            "object_id": "D",
+            "relation": "above"
+          }
+        ]
+      }
+    },
+    {
+      "id": "D",
+      "name": "Young girl",
+      "outfit": "green jumpsuit",
+      "position": {
+        "absolute": "lower-right",
+        "relative_to": [
+          {
+            "object_id": "A",
+            "relation": "far_right_of"
+          },
+          {
+            "object_id": "B",
+            "relation": "right_of"
+          },
+          {
+            "object_id": "C",
+            "relation": "below"
+          }
+        ]
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "id_1": "A",
+      "id_2": "B",
+      "relationship": "seated_next_to and looking_at"
+    },
+    {
+      "id_1": "C",
+      "id_2": "D",
+      "relationship": "standing_next_to and looking_at"
+    },
+    {
+      "id_1": "D",
+      "id_2": "C",
+      "relationship": "looking_at and touching arm"
+    },
+    {
+      "id_1": "C",
+      "id_2": "D",
+      "relationship": "hand near head"
+    }
+  ]
+}

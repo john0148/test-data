@@ -1,0 +1,44 @@
+{
+  "location": "Son_Tay_ancient_citadel",
+  "entry_id": "20251122_011303",
+  "original_prompt": "Seamlessly integrated into the provided background scene, occupying the mid-left foreground is Julius Caesar, a young man, dressed in an Adidas running shirt, dark grey track pants, and black sneakers. To his immediate right and slightly below him, positioned in the bottom-right foreground, stands Alfred Hitchcock, an elderly woman, holding a Keychron mechanical keyboard, and wearing a pastel pink cardigan over a cream blouse and navy blue pants. Both are standing near each other and are looking directly at one another, photorealistic subjects, sharp focus on characters.",
+  "generalized_prompt": "Seamlessly integrated into the provided background scene, occupying the mid-left foreground is Man A wearing red top and red pants. To his immediate right and slightly below him, positioned in the bottom-right foreground, stands Woman A wearing blue top and blue pants, holding a yellow keyboard, and wearing a pastel pink cardigan over a cream blouse and navy blue pants. Both are standing near each other and are looking directly at one another, photorealistic subjects, sharp focus on characters.",
+  "entities": [
+    {
+      "entity": "Julius Caesar",
+      "type": "human",
+      "description": "Julius Caesar, a young man, is prominently featured in the mid-left foreground of the scene, dressed in an Adidas running shirt, dark grey track pants, and black sneakers.",
+      "replacement_name": "Man A",
+      "image_file": "Julius_Caesar.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "Alfred Hitchcock",
+      "type": "human",
+      "description": "Alfred Hitchcock, portrayed as an elderly woman, is positioned in the bottom-right foreground, holding a Keychron mechanical keyboard and wearing a pastel pink cardigan over a cream blouse and navy blue pants. She is standing near Julius Caesar and looking directly at him.",
+      "replacement_name": "Woman A",
+      "image_file": "Alfred_Hitchcock.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "Adidas",
+      "type": "object",
+      "description": "Adidas running shirt worn by Julius Caesar.",
+      "replacement_name": "shirt",
+      "image_file": "Adidas.jpg",
+      "retrieved_entity": "Adidas Originals Trefoil Crew Sweater",
+      "folder_name": "áo_sweater_adidas_originals_trefoil_crew"
+    },
+    {
+      "entity": "Keychron mechanical keyboard",
+      "type": "object",
+      "description": "Keychron mechanical keyboard held by Alfred Hitchcock.",
+      "replacement_name": "keyboard",
+      "image_file": "Keychron_mechanical_keyboard.jpg",
+      "retrieved_entity": "Keychron Q6 Mechanical Keyboard",
+      "folder_name": "bàn_phím_cơ_keychron_q6"
+    }
+  ]
+}

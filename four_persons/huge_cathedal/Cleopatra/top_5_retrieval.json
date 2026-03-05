@@ -1,0 +1,27 @@
+[
+    {
+        "retrieved_entity": "Golden Oscar Statue",
+        "similarity_score": 0.3427468538284302,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Doraemon Small Statue",
+        "similarity_score": 0.27303338050842285,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "H&M A-Line Satin Slip Dress 112233",
+        "similarity_score": 0.2722223699092865,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "A Bathing Ape Bape Shark T-Shirt",
+        "similarity_score": 0.24192459881305695,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Fitus Mascot",
+        "similarity_score": 0.21969535946846008,
+        "metadata": []
+    }
+]

@@ -1,0 +1,62 @@
+{
+  "location": "nha-hat-lon-ha-noi",
+  "entry_id": "20251122_034300",
+  "original_prompt": "Seamlessly integrated into the provided background scene, The Beatles, an older woman, dressed in a mustard yellow knitted sweater, blue jeans, and white sneakers, with a Vitamix blender resting beside her, is anchored in the lower-left foreground, sitting. Positioned to her right and slightly below, John McCarthy, a young boy, clad in a bright red t-shirt, dark blue shorts, and black sneakers, with a Samsonite suitcase resting beside him, sits next to her, with the two holding hands and looking towards each other. Occupying the upper-center mid-ground, Audrey Hepburn, a man in a dark blue denim jacket, dark blue jeans, and a black t-shirt, leaning against a Vinfast Lux car, stands behind and slightly to the right of the woman, and behind and slightly to the left of the boy, looking down at both of them. Photorealistic subjects, sharp focus on characters.",
+  "generalized_prompt": "Seamlessly integrated into the provided background scene, a red band, an older woman, dressed in a mustard yellow knitted sweater, blue jeans, and white sneakers, with a yellow blender resting beside her, is anchored in the lower-left foreground, sitting. Positioned to her right and slightly below, Boy A wearing blue top and blue pants, a young boy, clad in a bright red t-shirt, dark blue shorts, and black sneakers, with a purple suitcase resting beside him, sits next to her, with the two holding hands and looking towards each other. Occupying the upper-center mid-ground, Woman A wearing green T-shirt, a man in a dark blue denim jacket, dark blue jeans, and a black t-shirt, leaning against an orange car, stands behind and slightly to the right of the woman, and behind and slightly to the left of the boy, looking down at both of them. Photorealistic subjects, sharp focus on characters.",
+  "entities": [
+    {
+      "entity": "The Beatles",
+      "type": "object",
+      "description": "The Beatles, an older woman, dressed in a mustard yellow knitted sweater, blue jeans, and white sneakers, with a Vitamix blender resting beside her, is anchored in the lower-left foreground, sitting.",
+      "replacement_name": "band",
+      "image_file": "The_Beatles.jpg",
+      "retrieved_entity": "Ikea Djungelskog Teddy Bear",
+      "folder_name": "gấu_teddy_ikea_djungelskog"
+    },
+    {
+      "entity": "John McCarthy",
+      "type": "human",
+      "description": "John McCarthy, a young boy, clad in a bright red t-shirt, dark blue shorts, and black sneakers, with a Samsonite suitcase resting beside him, sits next to the woman, holding hands and looking towards each other.",
+      "replacement_name": "Boy A",
+      "image_file": "John_McCarthy.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "Audrey Hepburn",
+      "type": "human",
+      "description": "Audrey Hepburn, a man in a dark blue denim jacket, dark blue jeans, and a black t-shirt, leaning against a Vinfast Lux car, stands behind and slightly to the right of the woman, and behind and slightly to the left of the boy, looking down at both of them.",
+      "replacement_name": "Woman A",
+      "image_file": "Audrey_Hepburn.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "Vitamix",
+      "type": "object",
+      "description": "A Vitamix blender is placed beside the seated woman, adding to the photorealistic background scene.",
+      "replacement_name": "blender",
+      "image_file": "Vitamix.png",
+      "retrieved_entity": "Vitamix E310 Blender",
+      "folder_name": "máy_xay_sinh_tố_vitamix_e310"
+    },
+    {
+      "entity": "Samsonite",
+      "type": "object",
+      "description": "A Samsonite suitcase is placed beside the seated boy, contributing to the detailed setting.",
+      "replacement_name": "suitcase",
+      "image_file": "Samsonite.webp",
+      "retrieved_entity": "Samsonite C-Lite Spinner 75cm Suitcase",
+      "folder_name": "vali_samsonite_c_lite_spinner_75cm"
+    },
+    {
+      "entity": "Vinfast Lux",
+      "type": "object",
+      "description": "A Vinfast Lux car is positioned in the background, with Audrey Hepburn leaning against it, enhancing the photorealistic and immersive scene.",
+      "replacement_name": "car",
+      "image_file": "Vinfast_Lux.jpg",
+      "retrieved_entity": "VinFast Lux A2.0 Car",
+      "folder_name": "xe_ô_tô_vinfast_lux_a20"
+    }
+  ]
+}

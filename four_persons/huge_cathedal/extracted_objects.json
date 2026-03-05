@@ -1,0 +1,54 @@
+{
+    "original_prompt": "Seamlessly integrated into the provided background scene, Jensen Huang, a child, is anchored in the bottom-left foreground, seated and dressed in an áo polo Lacoste and blue jeans overalls. Positioned in the lower-right foreground, slightly to the right of and slightly above Jensen Huang, Serena Williams, an older man, in a green long-sleeved sweater and muted green pants, holding a balo du lịch Osprey Farpoint, is looking at and touching Jensen Huang. In the middle-center of the frame, Cleopatra, a woman, stands, wearing a teal blue long-sleeved blouse, dark blue skinny jeans, and black high-heeled shoes, holding a nước hoa Maison Margiela Replica By the Fireplace; Jensen Huang below and slightly left of her is looking at and touching her. To the upper-left, standing next to and slightly behind Cleopatra, Leo Tolstoy, a young man, wearing a bộ vest nam Armani Collezioni, has his hand near Cleopatra's waist, touching her. Further to the upper-right, standing next to and slightly behind Cleopatra, a second young man, clad in an orange long-sleeved collared shirt, dark blue jeans, and brown shoes, has his hand near her hip. photorealistic subjects, sharp focus on characters, natural lighting.",
+    "generalized_prompt": "Seamlessly integrated into the provided background scene, Child A wearing red top and red pants is anchored in the bottom-left foreground, seated and dressed in an áo polo Lacoste and red pants. Positioned in the lower-right foreground, slightly to the right of and slightly above Child A, Man A wearing blue top and blue pants, holding a purple backpack, is looking at and touching Child A. In the middle-center of the frame, Woman A wearing green top and green pants stands, holding an orange perfume bottle; Child A below and slightly left of her is looking at and touching her. To the upper-left, standing next to and slightly behind Woman A, Young Man A wearing pink suit has his hand near Woman A's waist, touching her. Further to the upper-right, standing next to and slightly behind Woman A, a second young man, clad in a cyan shirt, dark blue jeans, and brown shoes, has his hand near her hip. photorealistic subjects, sharp focus on characters, natural lighting.",
+    "entities": [
+        {
+            "entity": "Jensen Huang",
+            "replacement_name": "Child A",
+            "description": "",
+            "type": "human"
+        },
+        {
+            "entity": "Serena Williams",
+            "replacement_name": "Man A",
+            "description": "",
+            "type": "human"
+        },
+        {
+            "entity": "Cleopatra",
+            "replacement_name": "Woman A",
+            "description": "",
+            "type": "human"
+        },
+        {
+            "entity": "Leo Tolstoy",
+            "replacement_name": "Young Man A",
+            "description": "",
+            "type": "human"
+        },
+        {
+            "entity": "Osprey Farpoint",
+            "replacement_name": "backpack",
+            "description": "",
+            "type": "object"
+        },
+        {
+            "entity": "Maison Margiela Replica By the Fireplace",
+            "replacement_name": "perfume bottle",
+            "description": "",
+            "type": "object"
+        },
+        {
+            "entity": "Armani Collezioni",
+            "replacement_name": "suit",
+            "description": "",
+            "type": "object"
+        },
+        {
+            "entity": "orange long-sleeved collared shirt",
+            "replacement_name": "shirt",
+            "description": "",
+            "type": "object"
+        }
+    ]
+}

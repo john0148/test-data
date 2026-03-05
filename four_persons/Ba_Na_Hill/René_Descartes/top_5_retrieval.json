@@ -1,0 +1,27 @@
+[
+    {
+        "retrieved_entity": "Dior Sauvage Perfume Sample",
+        "similarity_score": 0.24365326762199402,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Versace Eros EDT Perfume 100ml",
+        "similarity_score": 0.24261805415153503,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Chanel Bleu De Chanel Perfume 50ml",
+        "similarity_score": 0.21366187930107117,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Dior Sauvage EDT Perfume 100ml",
+        "similarity_score": 0.2064676433801651,
+        "metadata": []
+    },
+    {
+        "retrieved_entity": "Doraemon Small Statue",
+        "similarity_score": 0.20534278452396393,
+        "metadata": []
+    }
+]

@@ -1,0 +1,54 @@
+{
+    "original_prompt": "Seamlessly integrated into the provided background scene, occupying the foreground at the bottom-left is Frida Kahlo, a small child wearing an H&M satin A-line dress, facing towards the mid-ground. Positioned in the middle-left, slightly behind and to the right of the child, is Richard Dawkins, a young woman in faded denim overalls and a light grey t-shirt, holding an Yves Saint Laurent Y perfume bottle, who is looking at the child and holding hands with a young boy. This Barbara Liskov, a young boy dressed in a Harry Potter Gryffindor cosplay robe, stands in the middle-center, to the right of the young woman and behind the small child, also looking towards the child. Further back in the middle-right, behind the young woman and slightly to the right of the young boy, stands Kurt Gödel, a man dressed in a dark green jacket, yellow t-shirt, and dark trousers, holding a Lego Harry Potter model, who is also looking at the small child. Anchored in the background at the far-right, to the right of the man and far to the right of the young woman, is Beyoncé, an elderly man in an áo dài cách tân họa tiết sen, who is also looking towards the small child. photorealistic subjects, sharp focus on characters.",
+    "generalized_prompt": "Seamlessly integrated into the provided background scene, occupying the foreground at the bottom-left is Woman A wearing red top and red pants, a small child in a blue dress, facing towards the mid-ground. Positioned in the middle-left, slightly behind and to the right of the child, is Man A wearing green top and green pants, a young woman in faded denim overalls and a light grey t-shirt, holding a yellow perfume bottle, who is looking at the child and holding hands with a young boy. This Woman B wearing purple top and purple pants, a young boy dressed in a Harry Potter Gryffindor cosplay robe, stands in the middle-center, to the right of the young woman and behind the small child, also looking towards the child. Further back in the middle-right, behind the young woman and slightly to the right of the young boy, stands Man B wearing orange top and orange pants, a man dressed in a dark green jacket, yellow t-shirt, and dark trousers, holding a Lego Harry Potter model, who is also looking at the small child. Anchored in the background at the far-right, to the right of the man and far to the right of the young woman, is Man C wearing pink top and pink pants, an elderly man in cyan clothing, who is also looking towards the small child. photorealistic subjects, sharp focus on characters.",
+    "entities": [
+        {
+            "entity": "Frida Kahlo",
+            "replacement_name": "Woman A",
+            "description": "",
+            "type": "human"
+        },
+        {
+            "entity": "H&M",
+            "replacement_name": "dress",
+            "description": "",
+            "type": "object"
+        },
+        {
+            "entity": "Richard Dawkins",
+            "replacement_name": "Man A",
+            "description": "",
+            "type": "human"
+        },
+        {
+            "entity": "Yves Saint Laurent Y",
+            "replacement_name": "perfume bottle",
+            "description": "",
+            "type": "object"
+        },
+        {
+            "entity": "Barbara Liskov",
+            "replacement_name": "Woman B",
+            "description": "",
+            "type": "human"
+        },
+        {
+            "entity": "Kurt Gödel",
+            "replacement_name": "Man B",
+            "description": "",
+            "type": "human"
+        },
+        {
+            "entity": "Beyoncé",
+            "replacement_name": "Man C",
+            "description": "",
+            "type": "human"
+        },
+        {
+            "entity": "áo dài cách tân họa tiết sen",
+            "replacement_name": "clothing",
+            "description": "",
+            "type": "object"
+        }
+    ]
+}

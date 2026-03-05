@@ -1,0 +1,35 @@
+{
+  "location": "Hai_Van_pass",
+  "entry_id": "20251122_040115",
+  "original_prompt": "Seamlessly integrated into the provided background scene, centrally positioned in the mid-ground is Greta Thunberg, a young man with dark hair, wearing a Naruto Akatsuki cloud hoodie. To his left, slightly behind him, Simon Bolivar, an older woman with silver curly hair in a deep crimson red knitted sweater, is holding a golden lion handle umbrella and is hugging and leaning towards the young man. Positioned to the young man's right, slightly in front of him, Sergey Brin, a child with light brown hair wearing a bright lemon yellow horizontally striped t-shirt is also hugging and leaning towards him. Photorealistic subjects, sharp focus on characters, warm lighting.",
+  "generalized_prompt": "Seamlessly integrated into the provided background scene, centrally positioned in the mid-ground is Girl A wearing red top and red pants. To her left, slightly behind her, Woman A wearing blue top and blue pants is holding a golden lion handle umbrella and is hugging and leaning towards Girl A. Positioned to Girl A's right, slightly in front of her, Child A wearing green top and green pants is also hugging and leaning towards her. Photorealistic subjects, sharp focus on characters, warm lighting.",
+  "entities": [
+    {
+      "entity": "Greta Thunberg",
+      "type": "human",
+      "description": "Greta Thunberg is the central figure, centrally positioned in the mid-ground of the provided background scene. She is a young woman with dark hair, wearing a Naruto Akatsuki cloud hoodie.",
+      "replacement_name": "Girl A",
+      "image_file": "Greta_Thunberg.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "Simon Bolivar",
+      "type": "human",
+      "description": "Simon Bolivar is positioned to the left of Greta Thunberg, slightly behind her. She is an older woman with silver curly hair, wearing a deep crimson red knitted sweater. She is holding a golden lion handle umbrella and is hugging and leaning towards Greta Thunberg.",
+      "replacement_name": "Woman A",
+      "image_file": "Simon_Bolivar.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "Sergey Brin",
+      "type": "human",
+      "description": "Sergey Brin is positioned to the right of Greta Thunberg, slightly in front of her. He is a child with light brown hair, wearing a bright lemon yellow horizontally striped t-shirt. He is hugging and leaning towards Greta Thunberg.",
+      "replacement_name": "Child A",
+      "image_file": "Sergey_Brin.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    }
+  ]
+}

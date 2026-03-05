@@ -1,0 +1,99 @@
+{
+  "objects": [
+    {
+      "id": "A",
+      "name": "man",
+      "outfit": "navy blue suit jacket, white shirt, dark trousers",
+      "position": {
+        "absolute": "far-left",
+        "relative_to": []
+      }
+    },
+    {
+      "id": "B",
+      "name": "man",
+      "outfit": "emerald green long-sleeved shirt, dark trousers",
+      "position": {
+        "absolute": "middle-left",
+        "relative_to": [
+          {
+            "object_id": "A",
+            "relation": "right_of"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C",
+      "name": "young woman",
+      "outfit": "vibrant yellow short-sleeved dress",
+      "position": {
+        "absolute": "center",
+        "relative_to": [
+          {
+            "object_id": "B",
+            "relation": "right_of"
+          }
+        ]
+      }
+    },
+    {
+      "id": "D",
+      "name": "boy",
+      "outfit": "bright orange t-shirt, blue denim shorts",
+      "position": {
+        "absolute": "lower-right",
+        "relative_to": [
+          {
+            "object_id": "C",
+            "relation": "right_of"
+          },
+          {
+            "object_id": "E",
+            "relation": "in_front_of"
+          }
+        ]
+      }
+    },
+    {
+      "id": "E",
+      "name": "elderly woman",
+      "outfit": "cream-colored cardigan, purple floral dress, necklace",
+      "position": {
+        "absolute": "top-right",
+        "relative_to": [
+          {
+            "object_id": "C",
+            "relation": "right_of"
+          },
+          {
+            "object_id": "D",
+            "relation": "behind"
+          }
+        ]
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "id_1": "A",
+      "id_2": "B",
+      "relationship": "looking_at"
+    },
+    {
+      "id_1": "B",
+      "id_2": "C",
+      "relationship": "touching and looking_at"
+    },
+    {
+      "id_1": "C",
+      "id_2": "D",
+      "relationship": "touching and leaning_towards"
+    },
+    {
+      "id_1": "E",
+      "id_2": "D",
+      "relationship": "touching and looking_at"
+    }
+  ]
+}

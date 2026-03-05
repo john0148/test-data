@@ -1,0 +1,44 @@
+{
+  "location": "nha-hat-lon-ha-noi",
+  "entry_id": "20251122_034617",
+  "original_prompt": "Seamlessly integrated into the provided background scene, positioned prominently in the middle-center foreground is Stephen Hawking, a man, wearing a red t-shirt and dark pants, and a Starbucks barista uniform apron. Above him, Margaret Hamilton, a young girl, in a yellow sundress and white and grey sneakers is perched on his shoulders, occupying the top-center of the frame. To the man's immediate left, anchored in the lower-left foreground, is Sergey Brin, a woman, wearing a blue denim button-up shirt, holding a Fujifilm X-T5 camera, who is hugging the man, touching him, and looking at him. Conversely, to the man's right, positioned in the lower-right foreground, stands another woman also in a blue denim button-up shirt, equally hugging the man, touching him, and looking at him, with both women standing next to each other. photorealistic subjects, sharp focus on characters, outdoor lighting, highly detailed.",
+  "generalized_prompt": "Seamlessly integrated into the provided background scene, positioned prominently in the middle-center foreground is Man A wearing a red top and red pants, surrounded by Girl A, a young girl, in a blue top and blue pants, perched on his shoulders, occupying the top-center of the frame. To the man's immediate left, anchored in the lower-left foreground, is Woman A, a woman, wearing a green top and green pants, holding a yellow camera, who is hugging the man, touching him, and looking at him. Conversely, to the man's right, positioned in the lower-right foreground, stands another woman also in a green top and green pants, hugging the man, touching him, and looking at him, with both women standing next to each other. photorealistic subjects, sharp focus on characters, outdoor lighting, highly detailed.",
+  "entities": [
+    {
+      "entity": "Stephen Hawking",
+      "type": "human",
+      "description": "Stephen Hawking, a man, is prominently positioned in the middle-center foreground of the photorealistic scene, wearing a red t-shirt and dark pants, and additionally adorned with a Starbucks barista uniform apron.",
+      "replacement_name": "Man A",
+      "image_file": "Stephen_Hawking.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "Margaret Hamilton",
+      "type": "human",
+      "description": "Margaret Hamilton, a young girl, is perched on Stephen Hawking's shoulders in the top-center of the frame, dressed in a yellow sundress and white and grey sneakers.",
+      "replacement_name": "Girl A",
+      "image_file": "Margaret_Hamilton.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "Sergey Brin",
+      "type": "human",
+      "description": "Sergey Brin, a woman, is anchored in the lower-left foreground, hugging Stephen Hawking, touching him, and looking at him. She is wearing a blue denim button-up shirt and holding a Fujifilm X-T5 camera.",
+      "replacement_name": "Woman A",
+      "image_file": "Sergey_Brin.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "Fujifilm X-T5",
+      "type": "object",
+      "description": "A Fujifilm X-T5 camera is held by Sergey Brin, who is hugging and touching Stephen Hawking in the lower-left foreground of the photorealistic scene.",
+      "replacement_name": "camera",
+      "image_file": "Fujifilm_X-T5.jpg",
+      "retrieved_entity": "Fujifilm X-T5 Camera Lens Kit",
+      "folder_name": "máy_ảnh_fujifilm_x_t5_lens_kit"
+    }
+  ]
+}

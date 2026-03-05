@@ -1,0 +1,71 @@
+{
+  "location": "hoang-thanh-thang-long",
+  "entry_id": "20251122_015830",
+  "original_prompt": "Seamlessly integrated into the provided background scene, The Beatles, an elderly woman, dressed in an áo polo Tommy Hilfiger and grey linen pants, holding a bottle of nước hoa Dior Sauvage, is positioned prominently in the upper-center mid-ground of the frame. Directly below her, occupying the lower-center foreground and resting comfortably in her lap, is Mark Zuckerberg, a young girl wearing an áo polo Adidas and blue leggings with a white floral pattern, as The Beatles gently strokes her hair and embraces her in a warm hug, creating a tender interaction between them; photorealistic subjects, sharp focus on characters.",
+  "generalized_prompt": "Seamlessly integrated into the provided background scene, Group A wearing red T-shirt, an elderly woman dressed in a blue shirt and grey linen pants, holding a bottle of purple perfume, is positioned prominently in the upper-center mid-ground of the frame. Directly below her, occupying the lower-center foreground and resting comfortably in her lap, is Man A wearing orange T-shirt, a young girl wearing a yellow top and yellow pants, as Group A gently strokes her hair and embraces her in a warm hug, creating a tender interaction between them; photorealistic subjects, sharp focus on characters.",
+  "entities": [
+    {
+      "entity": "The Beatles",
+      "type": "human",
+      "description": "The Beatles, an elderly woman, is positioned prominently in the upper-center mid-ground of the frame, with The Beatles gently stroking her hair and embracing her in a warm hug, creating a tender interaction.",
+      "replacement_name": "Group A",
+      "image_file": "The_Beatles.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "áo polo Tommy Hilfiger",
+      "type": "object",
+      "description": "An elderly woman is dressed in an áo polo Tommy Hilfiger.",
+      "replacement_name": "shirt",
+      "image_file": "áo_polo_Tommy_Hilfiger.jpg",
+      "retrieved_entity": "Tommy Hilfiger Signature Polo Shirt",
+      "folder_name": "áo_polo_tommy_hilfiger_signature_polo"
+    },
+    {
+      "entity": "áo polo Adidas",
+      "type": "object",
+      "description": "A young girl is wearing an áo polo Adidas.",
+      "replacement_name": "shirt",
+      "image_file": "áo_polo_Adidas.jpg",
+      "retrieved_entity": "Adidas Performance Polo Shirt",
+      "folder_name": "áo_polo_adidas_performance_polo"
+    },
+    {
+      "entity": "young girl",
+      "type": "human",
+      "description": "A young girl wearing an áo polo Adidas and blue leggings with a white floral pattern, directly below the elderly woman in the lower-center foreground.",
+      "replacement_name": "Girl A",
+      "image_file": null,
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "nước hoa Dior Sauvage",
+      "type": "object",
+      "description": "An elderly woman is holding a bottle of nước hoa Dior Sauvage.",
+      "replacement_name": "perfume",
+      "image_file": "nước_hoa_Dior_Sauvage.jpg",
+      "retrieved_entity": "Dior Sauvage 100ml",
+      "folder_name": "dior_sauvage_100ml"
+    },
+    {
+      "entity": "Mark Zuckerberg",
+      "type": "human",
+      "description": "Mark Zuckerberg, a young girl wearing an áo polo Adidas and blue leggings with a white floral pattern, is directly below the elderly woman in the lower-center foreground.",
+      "replacement_name": "Man A",
+      "image_file": "Mark_Zuckerberg.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "blue leggings",
+      "type": "object",
+      "description": "A young girl is wearing blue leggings with a white floral pattern.",
+      "replacement_name": "leggings",
+      "image_file": "blue_leggings.webp",
+      "retrieved_entity": "HCMUS Uniform Blue And White PE Shirt",
+      "folder_name": "đồng_phục_hcmus_áo_thể_dục_màu_trắng_xanh"
+    }
+  ]
+}

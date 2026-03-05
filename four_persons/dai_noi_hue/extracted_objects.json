@@ -1,0 +1,36 @@
+{
+    "original_prompt": "Seamlessly integrated into the provided background scene, and arranged prominently in the foreground, J.R.R. Tolkien, a young woman with auburn hair, wearing an áo bóng rổ Los Angeles Lakers LeBron James jersey, is positioned in the upper-left of the frame. To her right, occupying the upper-right, is René Descartes, a teenage girl in a yellow hooded sweatshirt, holding a bộ mô hình Gundam MGEX; these two are next to each other. Below the young woman, and to the lower-left of the teenage girl, Demis Hassabis, a man with a beard wearing an áo polo Adidas, is anchored in the lower-left of the frame, touching the young woman and near the teenage girl. Completing this foreground arrangement, Andrej Karpathy, a woman in a green long-sleeved top, holding a ghita Fender Stratocaster, is situated in the lower-right of the frame, below the teenage girl, to the lower-right of the young woman, and to the right of the man; all four subjects are next to each other, forming a cohesive group. Photorealistic subjects, sharp focus on characters.",
+    "generalized_prompt": "Seamlessly integrated into the provided background scene, and arranged prominently in the foreground, Man A wearing red top and red pants, a young woman with auburn hair, wearing an áo bóng rổ Los Angeles Lakers LeBron James jersey, is positioned in the upper-left of the frame. To her right, occupying the upper-right, is girl A wearing blue top and blue pants, a teenage girl in a yellow hooded sweatshirt, holding a green model; these two are next to each other. Below the young woman, and to the lower-left of the teenage girl, man A wearing yellow top and yellow pants, is anchored in the lower-left of the frame, touching the young woman and near the teenage girl. Completing this foreground arrangement, woman A wearing purple top and purple pants, holding a ghita Fender Stratocaster, is situated in the lower-right of the frame, below the teenage girl, to the lower-right of the young woman, and to the right of the man; all four subjects are next to each other, forming a cohesive group. Photorealistic subjects, sharp focus on characters.",
+    "entities": [
+        {
+            "entity": "J.R.R. Tolkien",
+            "replacement_name": "Man A",
+            "description": "J.R.R. Tolkien, a young woman with auburn hair, is positioned in the upper-left of the frame, wearing an áo bóng rổ Los Angeles Lakers LeBron James jersey.",
+            "type": "human"
+        },
+        {
+            "entity": "René Descartes",
+            "replacement_name": "girl A",
+            "description": "René Descartes, a teenage girl in a yellow hooded sweatshirt, is positioned in the upper-right of the frame, holding a bộ mô hình Gundam MGEX.",
+            "type": "human"
+        },
+        {
+            "entity": "bộ mô hình Gundam MGEX",
+            "replacement_name": "model",
+            "description": "René Descartes is holding a bộ mô hình Gundam MGEX.",
+            "type": "object"
+        },
+        {
+            "entity": "Demis Hassabis",
+            "replacement_name": "man A",
+            "description": "Demis Hassabis, a man with a beard wearing an áo polo Adidas, is positioned in the lower-left of the frame, anchoring the composition and touching the young woman and near the teenage girl.",
+            "type": "human"
+        },
+        {
+            "entity": "Andrej Karpathy",
+            "replacement_name": "woman A",
+            "description": "Andrej Karpathy, a woman in a green long-sleeved top, is positioned in the lower-right of the frame, below the teenage girl, to the lower-right of the young woman, and to the right of Demis Hassabis, forming a cohesive group.",
+            "type": "human"
+        }
+    ]
+}

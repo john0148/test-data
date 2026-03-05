@@ -1,0 +1,80 @@
+{
+  "location": "thao_cam_vien",
+  "entry_id": "20251120_063010",
+  "original_prompt": "Seamlessly integrated into the provided background scene, positioned in the left-center foreground, Louis Pasteur, a young woman wearing a pastel yellow sundress, a silver necklace with a small pendant, and a silver ring on her left ring finger, holding a bộ sưu tập Pokémon thẻ bài, is sitting next to Plato, a middle-aged man. This man, located in the right-center foreground, dressed in a faded grey t-shirt, dark green pants, and black shoes, with a silver ring on his left ring finger, is holding the young woman and looking directly at her, with a mô hình Hot Toys Iron Man Mark 85 resting on his lap, and a xe máy Honda SH leaning against his side, creating a focused interaction between the two subjects in the central frame, photorealistic subjects,",
+  "generalized_prompt": "Seamlessly integrated into the provided background scene, positioned in the left-center foreground, Man A wearing red top and red pants, a young woman wearing a blue dress, a green necklace with a small pendant, and a yellow ring on her left ring finger, holding a purple collection, is sitting next to Man B wearing orange top and orange pants, a middle-aged man, dressed in a faded grey t-shirt, dark green pants, and black shoes, with a yellow ring on his left ring finger, holding the young woman and looking directly at her, with a pink model resting on his lap, and a cyan motorcycle leaning against his side, creating a focused interaction between the two subjects in the central frame, photorealistic subjects,",
+  "entities": [
+    {
+      "entity": "Louis Pasteur",
+      "type": "human",
+      "description": "Louis Pasteur, a young woman wearing a pastel yellow sundress, a silver necklace with a small pendant, and a silver ring on her left ring finger, is holding a Pokémon card collection, positioned in the left-center foreground.",
+      "replacement_name": "Man A",
+      "image_file": "Louis_Pasteur.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "pastel yellow sundress",
+      "type": "object",
+      "description": "Louis Pasteur is wearing a pastel yellow sundress, which is part of her outfit.",
+      "replacement_name": "dress",
+      "image_file": "pastel_yellow_sundress.jpg",
+      "retrieved_entity": "The North Face Nuptse Jacket",
+      "folder_name": "áo_khoác_the_north_face_nuptse_jacket"
+    },
+    {
+      "entity": "silver necklace",
+      "type": "object",
+      "description": "Louis Pasteur is wearing a silver necklace with a small pendant, which is part of her outfit.",
+      "replacement_name": "necklace",
+      "image_file": "silver_necklace.png",
+      "retrieved_entity": "Pandora Moments Charm Bracelet",
+      "folder_name": "vòng_tay_pandora_moments_charm_bracelet"
+    },
+    {
+      "entity": "silver ring",
+      "type": "object",
+      "description": "Louis Pasteur has a silver ring on her left ring finger, which is part of her outfit.",
+      "replacement_name": "ring",
+      "image_file": "silver_ring.jpg",
+      "retrieved_entity": "Golden Oscar Statue",
+      "folder_name": "bức_tượng_vàng_oscar"
+    },
+    {
+      "entity": "Pokémon card collection",
+      "type": "object",
+      "description": "Louis Pasteur is holding a Pokémon card collection, which is part of her outfit.",
+      "replacement_name": "collection",
+      "image_file": "Pokémon_card_collection.jpg",
+      "retrieved_entity": "Pokemon Trading Card Collection",
+      "folder_name": "bộ_sưu_tập_pokémon_thẻ_bài"
+    },
+    {
+      "entity": "Plato",
+      "type": "human",
+      "description": "Plato, a middle-aged man, is located in the right-center foreground, dressed in a faded grey t-shirt, dark green pants, and black shoes, with a silver ring on his left ring finger.",
+      "replacement_name": "Man B",
+      "image_file": "Plato.jpg",
+      "retrieved_entity": null,
+      "folder_name": null
+    },
+    {
+      "entity": "mô hình Hot Toys Iron Man Mark 85",
+      "type": "object",
+      "description": "Plato is holding the young woman and looking directly at her, with a mô hình Hot Toys Iron Man Mark 85 resting on his lap.",
+      "replacement_name": "model",
+      "image_file": "mô_hình_Hot_Toys_Iron_Man_Mark_85.jpg",
+      "retrieved_entity": "Hot Toys Iron Man Mark 85 Figure",
+      "folder_name": "mô_hình_hot_toys_iron_man_mark_85"
+    },
+    {
+      "entity": "xe máy Honda SH",
+      "type": "object",
+      "description": "Plato has a xe máy Honda SH leaning against his side, creating a focused interaction between the two subjects in the central frame.",
+      "replacement_name": "motorcycle",
+      "image_file": "xe_máy_Honda_SH.png",
+      "retrieved_entity": "Honda SH Scooter",
+      "folder_name": "xe_máy_honda_sh"
+    }
+  ]
+}
